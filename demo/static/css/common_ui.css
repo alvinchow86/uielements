@@ -1,11 +1,11 @@
 
 
 .std-white-box {
-    position: relative; 
+    position: relative;
     padding-top: 10px;
     padding-left: 10px;
     margin-left: -6px;
-    
+
 }
 
 .std-white-box > .corner-tr {
@@ -24,20 +24,20 @@
     background: transparent url(../images/boxes/std-white-box-shadow.png) no-repeat left bottom;
 }
 
-.std-white-box > .box-br { 
+.std-white-box > .box-br {
     background: transparent url(../images/boxes/std-white-box-shadow.png) no-repeat right bottom;
 }
 
 .std-white-box .box-tl {
-    position: relative; 
-    left: -10px; top: -10px; 
+    position: relative;
+    left: -10px; top: -10px;
     background: transparent url(../images/boxes/std-white-box-shadow.png) no-repeat left top;
 }
 
 .std-white-box .box-content {
-    position: relative; 
+    position: relative;
     left: 5px; top:5px;
-    background-color: white;   
+    background-color: white;
     xborder: 1px solid #dedede;
     xborder-bottom: 1px solid #dbdbdb;
     border-style: solid;
@@ -51,7 +51,7 @@
 
 /* Gradient version */
 .std-white-box.gradient .box-content {
-   
+
     border: none;
     border-top: 1px solid white;
     border-left: 1px solid white;
@@ -59,21 +59,21 @@
 }
 
 /* Border version */
-.std-white-box.noborder {   
+.std-white-box.noborder {
     padding-top: 12px;
     padding-left: 12px;
 }
 
 .std-white-box.noborder > .corner-tr,
 .std-white-box.noborder > .corner-bl
- { 
+ {
     width: 12px;
-    height: 12px; 
-   
+    height: 12px;
+
 }
 
 .std-white-box.noborder .box-tl {
-    left: -12px; top: -12px; 
+    left: -12px; top: -12px;
 }
 
 .std-white-box.noborder .box-content {
@@ -82,7 +82,7 @@
 
     /*
     border-top: 1px solid #e0e0e0;
-    
+
     border-left: 1px solid #e0e0e0;
     border-right: 1px solid #e0e0e0;
     border-bottom: 1px solid #dbdbdb;
@@ -109,17 +109,17 @@
     margin-bottom: 6px;
 }
 
-.std-white-box.left .box-content {  
+.std-white-box.left .box-content {
     width: 670px;
 }
 
 /* Actual right side boxes */
 .std-white-box.right {
-    float: left; 
+    float: left;
     margin-bottom: 6px;
 }
 
-.std-white-box.right .box-content {  
+.std-white-box.right .box-content {
     width: 300px;
 }
 
@@ -130,7 +130,7 @@
 .std-box-header-simple {
     font-family: "Trebuchet MS";
     font-size: 21px;
-    letter-spacing: -1px;       
+    letter-spacing: -1px;
     margin-bottom: 9px;
     height: 25px;
     line-height: 25px;
@@ -153,7 +153,7 @@
 .header-box-header {
     font-family: "Trebuchet MS";
     font-size: 21px;
-    letter-spacing: -1px;       
+    letter-spacing: -1px;
     zzmargin-bottom: 9px;
     height: 25px;
     line-height: 25px;
@@ -185,12 +185,12 @@
 
 /*
   .header-box.has-tabs > .header-box-header {
-  
+
   font-size: 20px;
   line-height: 22px;
   padding-top: 9px;
-  
-  
+
+
   }
   */
 .header-box-inset {
@@ -219,12 +219,12 @@
 .header-box-shadow {
     width: 100%;
     height: 6px;
-    
+
     background: transparent url(../images/boxes/box-header-shadow.png) repeat-x left top;
 }
 
 .header-box-tabs {
-     list-style-type: none;     
+     list-style-type: none;
      height: 36px;
      padding-left: 4px;
      margin-top: 3px;
@@ -232,14 +232,14 @@
 
 .header-box-tabs-item {
     float: left;
-    display: block;    
+    display: block;
 }
 
 .header-box-tabs-link {
     display: block;
     float: left;
     font-size: 16px;
-    text-align: center;    
+    text-align: center;
     position: relative;
     height: 36px;
     font-family: "Trebuchet MS";
@@ -265,7 +265,7 @@
 }
 
 .header-box-tabs-link:hover {
-    
+
     color: #6F7889;
     color: #5D7198;  /*ok*/
     color: #4068CB;
@@ -284,13 +284,13 @@
     display: none;
     position: absolute;
     width: 100%;
-    bottom: -1px;   
-    height: 8px;    
+    bottom: -1px;
+    height: 8px;
     background: url(../images/boxes/header-box-tab-triangle-white.png) no-repeat center top transparent;
 }
 
 .header-box-tabs-triangle.white {
-    background: url(../images/boxes/header-box-tab-triangle-white.png) no-repeat center top transparent; 
+    background: url(../images/boxes/header-box-tab-triangle-white.png) no-repeat center top transparent;
 }
 
 .header-box-tabs-triangle.lightgrey {
@@ -304,7 +304,7 @@
 
 
 .header-box-tabs-link.selected > .header-box-tabs-triangle {
-    display: block;  
+    display: block;
 }
 
 
@@ -342,10 +342,10 @@ div.testbox2 {
 
 
 .sunk-box {
-    position: relative; 
+    position: relative;
     padding-top: 10px;
     padding-left: 10px;
-    
+
 }
 
 
@@ -365,22 +365,22 @@ div.testbox2 {
     background: transparent url(../images/boxes/sunken-box.png) no-repeat left bottom;
 }
 
-.sunk-box > .sunk-box-br { 
+.sunk-box > .sunk-box-br {
     background: transparent url(../images/boxes/sunken-box.png) no-repeat right bottom;
 }
 
 .sunk-box .sunk-box-tl {
-    position: relative; 
-    left: -10px; top: -10px; 
+    position: relative;
+    left: -10px; top: -10px;
     background: transparent url(../images/boxes/sunken-box.png) no-repeat left top;
 }
 .sunk-box .sunk-box-content {
-    position: relative; 
+    position: relative;
     left: 5px; top:5px;
-    xbackground-color: white;   
+    xbackground-color: white;
     xborder: 1px solid #dedede;
     xborder-bottom: 1px solid #dbdbdb;
- 
+
 }
 
 .sunk-box .sunk-box-content-padding {
@@ -413,21 +413,21 @@ div.testbox2 {
 
 .sidebar-header-box-rounded.dark > .box-hd > h2 {
     padding-top: 12px;
-    color: white; 
-    font-weight: normal; 
+    color: white;
+    font-weight: normal;
     font-size: 15px
 }
 
 .sidebar-header-box-rounded.light > .box-hd > h2 {
     padding-top: 12px;
-    color: #222222; 
-    font-weight: normal; 
+    color: #222222;
+    font-weight: normal;
     font-size: 15px
 }
 
 
 .sidebar-header-box-rounded > .box-content {
-  
+
     background: transparent url(../images/boxes/sidebar-rounded-box-body.png) no-repeat left bottom;
     padding: 0px 5px 10px 5px;
 
@@ -451,7 +451,7 @@ div.testbox2 {
 
     /* Final line height 36px */
     line-height: 36px;
-   
+
     display: block;
     width: 90px;
 }
@@ -460,7 +460,7 @@ div.testbox2 {
    display: block;
    height: 100%;
    xheight: 38px;
-    padding-left: 18px; 
+    padding-left: 18px;
     text-align: center;
     xfont-family: "Trebuchet MS";
     xfont-weight: bold;
@@ -479,56 +479,56 @@ div.testbox2 {
 }
 
 /* green */
-.button-green > .button-text {   
-    background: url(../images/buttons/button-green.png) no-repeat left top transparent;     
-    background: transparent url(../images/buttons/button-sprite.png) 0 0 ;  
+.button-green > .button-text {
+    background: url(../images/buttons/button-green.png) no-repeat left top transparent;
+    background: transparent url(../images/buttons/button-sprite.png) 0 0 ;
 }
 
-.button-green > .button-right {  
+.button-green > .button-right {
     background: url(../images/buttons/button-green.png) no-repeat right top transparent;
-    background: transparent url(../images/buttons/button-sprite.png) right 0 ;  
+    background: transparent url(../images/buttons/button-sprite.png) right 0 ;
 }
 .button-green:hover > .button-text,
 .button-green:focus > .button-text {
-    background: url(../images/buttons/button-green-hover.png) no-repeat left top transparent;  
-    background: transparent url(../images/buttons/button-sprite.png) 0 -40px ;  
+    background: url(../images/buttons/button-green-hover.png) no-repeat left top transparent;
+    background: transparent url(../images/buttons/button-sprite.png) 0 -40px ;
     xxcolor: #000;
 }
 
 .button-green:hover > .button-right,
 .button-green:focus > .button-right {
-    background: url(../images/buttons/button-green-hover.png) no-repeat right top transparent;  
-    background: transparent url(../images/buttons/button-sprite.png) right -40px ;  
+    background: url(../images/buttons/button-green-hover.png) no-repeat right top transparent;
+    background: transparent url(../images/buttons/button-sprite.png) right -40px ;
 }
 
 .button-green.active > .button-text {
-    background: url(../images/buttons/button-green-active.png) no-repeat left top transparent;  
-    background: transparent url(../images/buttons/button-sprite.png) 0 -80px ;  
+    background: url(../images/buttons/button-green-active.png) no-repeat left top transparent;
+    background: transparent url(../images/buttons/button-sprite.png) 0 -80px ;
     color: #000;
 }
 
 .button-green.active > .button-right {
-    background: url(../images/buttons/button-green-active.png) no-repeat right top transparent;  
-    background: transparent url(../images/buttons/button-sprite.png) right -80px ;  
+    background: url(../images/buttons/button-green-active.png) no-repeat right top transparent;
+    background: transparent url(../images/buttons/button-sprite.png) right -80px ;
 }
 
 .button-green.alt:hover > .button-text {
-    background: url(../images/buttons/button-green-hover-alt.png) no-repeat left top transparent;  
- 
+    background: url(../images/buttons/button-green-hover-alt.png) no-repeat left top transparent;
+
 }
 
 .button-green.alt:hover > .button-right {
-    background: url(../images/buttons/button-green-hover-alt.png) no-repeat right top transparent;  
-   
+    background: url(../images/buttons/button-green-hover-alt.png) no-repeat right top transparent;
+
 }
 
 .button-green.alt.active > .button-text {
-    background: url(../images/buttons/button-green-active-alt.png) no-repeat left top transparent;    
+    background: url(../images/buttons/button-green-active-alt.png) no-repeat left top transparent;
 }
 
 .button-green.alt.active > .button-right {
-    background: url(../images/buttons/button-green-active-alt.png) no-repeat right top transparent;  
- 
+    background: url(../images/buttons/button-green-active-alt.png) no-repeat right top transparent;
+
 }
 
 
@@ -536,15 +536,15 @@ div.testbox2 {
 
 /* dark grey */
 
-a.button-darkgrey .button-text {   
-    background: url(../images/buttons/button-darkgrey.png) no-repeat left top transparent;  
-    background: transparent url(../images/buttons/button-sprite.png) 0 -240px ;  
+a.button-darkgrey .button-text {
+    background: url(../images/buttons/button-darkgrey.png) no-repeat left top transparent;
+    background: transparent url(../images/buttons/button-sprite.png) 0 -240px ;
     color: white;
 }
 
-a.button-darkgrey .button-right {  
+a.button-darkgrey .button-right {
     background: url(../images/buttons/button-darkgrey.png) no-repeat right top transparent;
-    background: transparent url(../images/buttons/button-sprite.png) right -240px ;  
+    background: transparent url(../images/buttons/button-sprite.png) right -240px ;
 }
 
 
@@ -552,95 +552,95 @@ a.button-darkgrey .button-right {
 a.button-darkgrey:hover .button-text,
 a.button-darkgrey:focus .button-text
  {
-    background: url(../images/buttons/button-darkgrey-hover.png) no-repeat left top transparent;  
-    background: transparent url(../images/buttons/button-sprite.png) 0 -280px ;  
-    
+    background: url(../images/buttons/button-darkgrey-hover.png) no-repeat left top transparent;
+    background: transparent url(../images/buttons/button-sprite.png) 0 -280px ;
+
 }
 
 a.button-darkgrey:hover .button-right,
 a.button-darkgrey:focus .button-right
 {
-    background: url(../images/buttons/button-darkgrey-hover.png) no-repeat right top transparent;  
-    background: transparent url(../images/buttons/button-sprite.png) right -280px ;  
+    background: url(../images/buttons/button-darkgrey-hover.png) no-repeat right top transparent;
+    background: transparent url(../images/buttons/button-sprite.png) right -280px ;
 }
 
 
 a.button-darkgrey.active .button-text {
-    background: url(../images/buttons/button-darkgrey-active.png) no-repeat left top transparent;  
-    background: transparent url(../images/buttons/button-sprite.png) 0 -320px ;  
+    background: url(../images/buttons/button-darkgrey-active.png) no-repeat left top transparent;
+    background: transparent url(../images/buttons/button-sprite.png) 0 -320px ;
 }
 
 a.button-darkgrey.active .button-right {
-    background: url(../images/buttons/button-darkgrey-active.png) no-repeat right top transparent;   
-    background: transparent url(../images/buttons/button-sprite.png) right -320px ;  
+    background: url(../images/buttons/button-darkgrey-active.png) no-repeat right top transparent;
+    background: transparent url(../images/buttons/button-sprite.png) right -320px ;
 }
 
 
 /* light grey */
 
-a.button-lightgrey .button-text {   
-    background: url(../images/buttons/button-lightgrey.png) no-repeat left top transparent;    
-    background: transparent url(../images/buttons/button-sprite.png) 0 -120px ;  
+a.button-lightgrey .button-text {
+    background: url(../images/buttons/button-lightgrey.png) no-repeat left top transparent;
+    background: transparent url(../images/buttons/button-sprite.png) 0 -120px ;
     color: #444;
 }
 
-a.button-lightgrey .button-right {  
+a.button-lightgrey .button-right {
     background: url(../images/buttons/button-lightgrey.png) no-repeat right top transparent;
-    background: transparent url(../images/buttons/button-sprite.png) right -120px ;  
+    background: transparent url(../images/buttons/button-sprite.png) right -120px ;
 }
 
 a.button-lightgrey:hover .button-text,
 a.button-lightgrey:focus .button-text
  {
-    background: url(../images/buttons/button-lightgrey-hover.png) no-repeat left top transparent;  
-    background: transparent url(../images/buttons/button-sprite.png) 0 -160px ;  
+    background: url(../images/buttons/button-lightgrey-hover.png) no-repeat left top transparent;
+    background: transparent url(../images/buttons/button-sprite.png) 0 -160px ;
     color: #000;
 }
 
 a.button-lightgrey:hover .button-right,
 a.button-lightgrey:focus .button-right
 {
-    background: url(../images/buttons/button-lightgrey-hover.png) no-repeat right top transparent;  
-    background: transparent url(../images/buttons/button-sprite.png) right -160px ;  
+    background: url(../images/buttons/button-lightgrey-hover.png) no-repeat right top transparent;
+    background: transparent url(../images/buttons/button-sprite.png) right -160px ;
 }
 
 
 a.button-lightgrey.active .button-text {
-    background: url(../images/buttons/button-lightgrey-active.png) no-repeat left top transparent;  
-    background: transparent url(../images/buttons/button-sprite.png) 0 -200px ;  
+    background: url(../images/buttons/button-lightgrey-active.png) no-repeat left top transparent;
+    background: transparent url(../images/buttons/button-sprite.png) 0 -200px ;
 }
 
 a.button-lightgrey.active .button-right {
-    background: url(../images/buttons/button-lightgrey-active.png) no-repeat right top transparent;   
-    background: transparent url(../images/buttons/button-sprite.png) right -200px ;  
+    background: url(../images/buttons/button-lightgrey-active.png) no-repeat right top transparent;
+    background: transparent url(../images/buttons/button-sprite.png) right -200px ;
 }
 
 /* red */
-a.button-red .button-text {   
-    background: url(../images/buttons/button-red.png) no-repeat left top transparent;    
+a.button-red .button-text {
+    background: url(../images/buttons/button-red.png) no-repeat left top transparent;
     color: white;
 }
 
-a.button-red .button-right {  
+a.button-red .button-right {
     background: url(../images/buttons/button-red.png) no-repeat right top transparent;
 }
 
 /* orange */
-a.button-orange .button-text {   
-    background: url(../images/buttons/button-orange.png) no-repeat left top transparent;    
+a.button-orange .button-text {
+    background: url(../images/buttons/button-orange.png) no-repeat left top transparent;
     color: #5e4b1b;
-}  
+}
 
-a.button-orange .button-right {  
+a.button-orange .button-right {
     background: url(../images/buttons/button-orange.png) no-repeat right top transparent;
 }
 
-a.button-grey .button-text {   
-    background: url(../images/buttons/button-grey.png) no-repeat left top transparent;    
-   
+a.button-grey .button-text {
+    background: url(../images/buttons/button-grey.png) no-repeat left top transparent;
+
 }
 
-a.button-grey .button-right {  
+a.button-grey .button-right {
     background: url(../images/buttons/button-grey.png) no-repeat right top transparent;
 }
 
@@ -683,7 +683,7 @@ a.button-grey .button-right {
 
 
 .textfield-std:hover > .textfield-right {
-  
+
     background: transparent url(../images/forms/textfield-light-hover.png) no-repeat right top;
     background: transparent url(../images/forms/form-sprite.png) no-repeat right -280px;
 }
@@ -695,7 +695,7 @@ a.button-grey .button-right {
 
 
 .textfield-std.focus > .textfield-right {
-  
+
     background: transparent url(../images/forms/textfield-light-focus.png) no-repeat right top;
     background: transparent url(../images/forms/form-sprite.png) no-repeat right -320px;
 }
@@ -706,7 +706,7 @@ a.button-grey .button-right {
 }
 
 .textfield-std.lightshadow.focus > .textfield-right {
-  
+
     background: transparent url(../images/forms/textfield-light-focus-lightshadow.png) no-repeat right top;
     background: transparent url(../images/forms/form-sprite.png) no-repeat right -360px;
 }
@@ -717,7 +717,7 @@ a.button-grey .button-right {
 }
 
 .textfield-std.blue.focus > .textfield-right {
-  
+
     background: transparent url(../images/forms/textfield-light-focus-blue.png) no-repeat right top;
     background: transparent url(../images/forms/form-sprite.png) no-repeat right -400px;
 }
@@ -738,13 +738,13 @@ a.button-grey .button-right {
 }
 
 .textfield-std.white > .textfield-left {
-   
+
     background: transparent url(../images/forms/textfield-white.png) no-repeat left top;
     background: transparent url(../images/forms/form-sprite.png) no-repeat left -440px;
 }
 
 .textfield-std.white:hover > .textfield-right {
-  
+
     background: transparent url(../images/forms/textfield-white-hover.png) no-repeat right top;
     background: transparent url(../images/forms/form-sprite.png) no-repeat right -480px;
 }
@@ -756,7 +756,7 @@ a.button-grey .button-right {
 
 
 .textfield-std.white.focus > .textfield-right {
-  
+
     background: transparent url(../images/forms/textfield-white-focus.png) no-repeat right top;
     background: transparent url(../images/forms/form-sprite.png) no-repeat right -520px;
 }
@@ -768,7 +768,7 @@ a.button-grey .button-right {
 
 
 .textfield-std.white.lightshadow.focus > .textfield-right {
-  
+
     background: transparent url(../images/forms/textfield-white-focus-lightshadow.png) no-repeat right top;
     background: transparent url(../images/forms/form-sprite.png) no-repeat right -560px;
 }
@@ -780,7 +780,7 @@ a.button-grey .button-right {
 
 
 .textfield-std.white.blue.focus > .textfield-right {
-  
+
     background: transparent url(../images/forms/textfield-white-focus-blue.png) no-repeat right top;
     background: transparent url(../images/forms/form-sprite.png) no-repeat right -600px;
 }
@@ -792,7 +792,7 @@ a.button-grey .button-right {
 /* Textfield disabled */
 .textfield-std.disabled > .textfield-right,
 .textfield-std.disabled:hover > .textfield-right {
-  
+
     background: transparent url(../images/forms/textfield-disabled.png) no-repeat right top;
     zbackground: transparent url(../images/forms/form-sprite.png) no-repeat right -280px;
 }
@@ -810,19 +810,19 @@ a.button-grey .button-right {
 */
 
 .textfield-std  .textfield-input {
-  
+
     border: none;
-    
+
     padding: 7px 0px;
     height: 16px;
-    
+
     zline-height: 30px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    
+
     background-color: transparent;
     width: 100%;
-   
+
 }
 
 .textfield-std  .textfield-input:focus {
@@ -845,7 +845,7 @@ a.button-grey .button-right {
     width: 45px;
     zbackground-color: grey;
     zbackground: transparent url(../images/forms/textfield-button-darkgrey.png) no-repeat -85px 0px;
-    
+
     padding-right: 5px;
     height: 32px;
     z-index: 10;
@@ -855,22 +855,22 @@ a.button-grey .button-right {
 .textfield-button > .text {
     padding-left: 5px;
     height: 100%;
-  
-    display: block;     
+
+    display: block;
     font-size: 14px;
 
      text-align: center;
 
 }
 
-.textfield-button > .right {    
+.textfield-button > .right {
     position: absolute;
     top: 0;
     right: 0;
     display: block;
     width: 5px;
     height: 100%;
-    
+
 }
 
 .textfield-button.darkgrey > .text {
@@ -885,17 +885,17 @@ a.button-grey .button-right {
 }
 
 
-.textfield-button.darkgrey.hover > .text { 
-    background-position: 0px -880px; 
+.textfield-button.darkgrey.hover > .text {
+    background-position: 0px -880px;
 }
-.textfield-button.darkgrey.hover > .right {     
+.textfield-button.darkgrey.hover > .right {
     background-position: -85px -880px;
 }
 
-.textfield-button.darkgrey.focus > .text { 
-    background-position: 0px -920px; 
+.textfield-button.darkgrey.focus > .text {
+    background-position: 0px -920px;
 }
-.textfield-button.darkgrey.focus > .right { 
+.textfield-button.darkgrey.focus > .right {
     background-position: -85px -920px;
 
 }
@@ -919,17 +919,17 @@ a.button-grey .button-right {
     background: transparent url(../images/forms/form-sprite.png) no-repeat -85px -720px;
 }
 
-.textfield-button.lightgrey.hover > .text { 
-    background-position: 0px -760px; 
+.textfield-button.lightgrey.hover > .text {
+    background-position: 0px -760px;
 }
-.textfield-button.lightgrey.hover > .right {     
+.textfield-button.lightgrey.hover > .right {
     background-position: -85px -760px;
 }
 
-.textfield-button.lightgrey.focus > .text { 
-    background-position: 0px -800px; 
+.textfield-button.lightgrey.focus > .text {
+    background-position: 0px -800px;
 }
-.textfield-button.lightgrey.focus > .right { 
+.textfield-button.lightgrey.focus > .right {
     background-position: -85px -800px;
 
 }
@@ -943,17 +943,17 @@ a.button-grey .button-right {
     background: transparent url(../images/forms/form-sprite.png) no-repeat -85px -960px;
 }
 
-.textfield-button.green.hover > .text { 
-    background-position: 0px -1000px; 
+.textfield-button.green.hover > .text {
+    background-position: 0px -1000px;
 }
-.textfield-button.green.hover > .right {     
+.textfield-button.green.hover > .right {
     background-position: -85px -1000px;
 }
 
-.textfield-button.green.focus > .text { 
-    background-position: 0px -1040px; 
+.textfield-button.green.focus > .text {
+    background-position: 0px -1040px;
 }
-.textfield-button.green.focus > .right { 
+.textfield-button.green.focus > .right {
     background-position: -85px -1040px;
 
 }
@@ -1002,7 +1002,7 @@ a.button-grey .button-right {
 .jsdropdown {
     position: relative;
     cursor: default;
-    margin: 0;    
+    margin: 0;
     margin-top: -3px;
     width: 130px;
     outline: 0;
@@ -1010,14 +1010,14 @@ a.button-grey .button-right {
 
 .jsdropdown.focus {
     outline: 0 !important;
-    
+
 }
 
 .jsdropdown-main {
     xwidth: 100%;
     position: relative;
     padding-right: 36px;
-    
+
     line-height: 39px;
     zline-height: 38.5px;
     font-size: 13px;
@@ -1058,54 +1058,54 @@ a.button-grey .button-right {
 
 
 
-.jsdropdown-main.focus > .jsdropdown-text {   
-    background: transparent url(../images/forms/dropdown-light-focus.png) no-repeat left top; 
+.jsdropdown-main.focus > .jsdropdown-text {
+    background: transparent url(../images/forms/dropdown-light-focus.png) no-repeat left top;
     background: transparent url(../images/forms/form-sprite.png) no-repeat 0 -40px ;
 }
 
-.jsdropdown-main.focus > .jsdropdown-right {   
+.jsdropdown-main.focus > .jsdropdown-right {
     background: transparent url(../images/forms/dropdown-light-focus.png) no-repeat right top;
     background: transparent url(../images/forms/form-sprite.png) no-repeat -170px -40px;
 }
 
-.jsdropdown-main.active > .jsdropdown-text {   
-    background: transparent url(../images/forms/dropdown-light-active.png) no-repeat left top; 
+.jsdropdown-main.active > .jsdropdown-text {
+    background: transparent url(../images/forms/dropdown-light-active.png) no-repeat left top;
     background: transparent url(../images/forms/form-sprite.png) no-repeat 0 -80px;
 }
 
-.jsdropdown-main.active > .jsdropdown-right {   
+.jsdropdown-main.active > .jsdropdown-right {
     background: transparent url(../images/forms/dropdown-light-active.png) no-repeat right top;
     background: transparent url(../images/forms/form-sprite.png) no-repeat -170px -80px;
 }
 
 /* WHITE VERSION */
 .jsdropdown-main.white > .jsdropdown-text {
-   
+
     background: transparent url(../images/forms/dropdown-white.png) no-repeat left top;
-    xbackground: transparent url(../images/forms/form-sprite.png) no-repeat 0 -120px;   
+    xbackground: transparent url(../images/forms/form-sprite.png) no-repeat 0 -120px;
 }
 
-.jsdropdown-main.white > .jsdropdown-right {   
+.jsdropdown-main.white > .jsdropdown-right {
     background: transparent url(../images/forms/dropdown-white.png) no-repeat right top;
     xbackground: transparent url(../images/forms/form-sprite.png) no-repeat -170px -120px;
 }
- 
-.jsdropdown-main.white.focus > .jsdropdown-text {   
-    background: transparent url(../images/forms/dropdown-white-focus.png) no-repeat left top; 
+
+.jsdropdown-main.white.focus > .jsdropdown-text {
+    background: transparent url(../images/forms/dropdown-white-focus.png) no-repeat left top;
     background: transparent url(../images/forms/form-sprite.png) no-repeat 0 -160px ;
 }
 
-.jsdropdown-main.white.focus > .jsdropdown-right {   
+.jsdropdown-main.white.focus > .jsdropdown-right {
     background: transparent url(../images/forms/dropdown-white-focus.png) no-repeat right top;
     background: transparent url(../images/forms/form-sprite.png) no-repeat -170px -160px;
 }
 
-.jsdropdown-main.white.active > .jsdropdown-text {   
-    background: transparent url(../images/forms/dropdown-white-active.png) no-repeat left top; 
+.jsdropdown-main.white.active > .jsdropdown-text {
+    background: transparent url(../images/forms/dropdown-white-active.png) no-repeat left top;
     background: transparent url(../images/forms/form-sprite.png) no-repeat 0 -200px;
 }
 
-.jsdropdown-main.white.active > .jsdropdown-right {   
+.jsdropdown-main.white.active > .jsdropdown-right {
     background: transparent url(../images/forms/dropdown-white-active.png) no-repeat right top;
     background: transparent url(../images/forms/form-sprite.png) no-repeat -170px -200px;
 }
@@ -1116,18 +1116,18 @@ a.button-grey .button-right {
 .jsdropdown-list {
     width: 132px;
     width: 100%;
-   
+
     position: absolute;
     z-index: 100;
-  
+
     top: 35px;
     display:none;
-    
+
 }
 
 
 .jsdropdown-list-inner {
-    margin: 0px 3px;   
+    margin: 0px 3px;
     border: 1px solid #b0b0b0;
     border-top: none;
     background-color: white;
@@ -1136,7 +1136,7 @@ a.button-grey .button-right {
 
 .jsdropdown-list .elem {
     display: block;
- 
+
     color: black;
     text-decoration: none;
     xxwidth: 100%;
@@ -1162,7 +1162,7 @@ a.button-grey .button-right {
 }
 .jsdropdown-main.mini {
     padding-right: 30px;
-  
+
 
     line-height: 34px;
     font-size: 12px;
@@ -1177,32 +1177,32 @@ a.button-grey .button-right {
     zline-height: 34px;
     zfont-size: 12px;
     padding-left: 15px;
-   
+
 }
 
 .jsdropdown-main.mini > .jsdropdown-right  {
-    width: 30px; 
+    width: 30px;
     height: 34px;
     background: transparent url(../images/forms/dropdown-light-mini.png) no-repeat right top;
-    
+
 }
 
-.jsdropdown-main.mini.focus > .jsdropdown-text {   
-    background: transparent url(../images/forms/dropdown-light-mini-focus.png) no-repeat left top; 
+.jsdropdown-main.mini.focus > .jsdropdown-text {
+    background: transparent url(../images/forms/dropdown-light-mini-focus.png) no-repeat left top;
     xbackground: transparent url(../images/forms/form-sprite.png) no-repeat 0 -160px ;
 }
 
-.jsdropdown-main.mini.focus > .jsdropdown-right {   
+.jsdropdown-main.mini.focus > .jsdropdown-right {
     background: transparent url(../images/forms/dropdown-light-mini-focus.png) no-repeat right top;
     xbackground: transparent url(../images/forms/form-sprite.png) no-repeat -170px -160px;
 }
 
-.jsdropdown-main.mini.active > .jsdropdown-text {   
-    background: transparent url(../images/forms/dropdown-light-mini-active.png) no-repeat left top; 
+.jsdropdown-main.mini.active > .jsdropdown-text {
+    background: transparent url(../images/forms/dropdown-light-mini-active.png) no-repeat left top;
     xbackground: transparent url(../images/forms/form-sprite.png) no-repeat 0 -200px;
 }
 
-.jsdropdown-main.mini.active > .jsdropdown-right {   
+.jsdropdown-main.mini.active > .jsdropdown-right {
     background: transparent url(../images/forms/dropdown-light-mini-active.png) no-repeat right top;
     xbackground: transparent url(../images/forms/form-sprite.png) no-repeat -170px -200px;
 }
@@ -1218,7 +1218,7 @@ a.button-grey .button-right {
 }
 
 /* Tiny (11px) text version of mini jsdropdown */
-.jsdropdown-main.mini.tinytext >.jsdropdown-text  {  
+.jsdropdown-main.mini.tinytext >.jsdropdown-text  {
     line-height: 33px;
     font-size: 11px;
     xline-height: 32px;
@@ -1231,15 +1231,15 @@ a.button-grey .button-right {
 
 /* Checkboxes */
 
-.checkbox-std {    
-    height: 21px;       
+.checkbox-std {
+    height: 21px;
     position: relative;
-    
+
     -moz-user-select: -moz-none;
     -khtml-user-select: none;
     -webkit-user-select: none;
     -o-user-select: none;
-    user-select: none;    
+    user-select: none;
     xxcursor: pointer;
     margin-bottom: 2px;
 }
@@ -1250,18 +1250,18 @@ a.button-grey .button-right {
     padding-right: 5px;
 }
 
-.checkbox-std.right { 
-    padding-right: 25px;    
-   
+.checkbox-std.right {
+    padding-right: 25px;
+
 }
 
 .checkbox-std > .checkbox-label {
-    font-size: 13px;   
+    font-size: 13px;
     line-height: 23px;
-    
+
     display: block;
     xxcursor: pointer;
-   
+
 }
 
 
@@ -1282,7 +1282,7 @@ a.button-grey .button-right {
 */
 
 .checkbox-std input[type="checkbox"] {
-    position: absolute; 
+    position: absolute;
     left: -9999px;
 }
 
@@ -1296,7 +1296,7 @@ a.button-grey .button-right {
 }
 
 /* WHITE VERSION */
-.checkbox-std.white > .checkbox-image {   
+.checkbox-std.white > .checkbox-image {
     background: transparent url(../images/forms/checkbox-white.png) no-repeat left top;
 
     background: transparent url(../images/forms/form-sprite.png) no-repeat -150px -650px;
@@ -1313,18 +1313,18 @@ a.button-grey .button-right {
 
 .checkbox-std:hover > .checkbox-image,
 .checkbox-std.focus > .checkbox-image {
-    background: transparent url(../images/forms/checkbox-std-focus.png) no-repeat left top;    
+    background: transparent url(../images/forms/checkbox-std-focus.png) no-repeat left top;
     background: transparent url(../images/forms/form-sprite.png) no-repeat -25px -650px;
 }
 
 .checkbox-std.active > .checkbox-image  {
-    background: transparent url(../images/forms/checkbox-std-active.png) no-repeat left top;    
+    background: transparent url(../images/forms/checkbox-std-active.png) no-repeat left top;
     background: transparent url(../images/forms/form-sprite.png) no-repeat -50px -650px;
 }
 
 
 .checkbox-std.checked > .checkbox-image  {
-    background: transparent url(../images/forms/checkbox-std-checked.png) no-repeat left top;    
+    background: transparent url(../images/forms/checkbox-std-checked.png) no-repeat left top;
     background: transparent url(../images/forms/form-sprite.png) no-repeat -75px -650px;
 
 }
@@ -1335,20 +1335,20 @@ a.button-grey .button-right {
 }
 
 .checkbox-std.checked.active > .checkbox-image  {
-    background: transparent url(../images/forms/checkbox-std-checked-active.png) no-repeat left top;    
+    background: transparent url(../images/forms/checkbox-std-checked-active.png) no-repeat left top;
     background: transparent url(../images/forms/form-sprite.png) no-repeat -125px -650px;
 }
 
 /* RADIO */
-.radio-std {    
-    height: 19px;       
+.radio-std {
+    height: 19px;
     position: relative;
-    
+
     -moz-user-select: -moz-none;
     -khtml-user-select: none;
     -webkit-user-select: none;
     -o-user-select: none;
-    user-select: none;      
+    user-select: none;
     margin-bottom: 2px;
 }
 .radio-std.left {
@@ -1357,9 +1357,9 @@ a.button-grey .button-right {
 }
 
 .radio-std input[type="radio"] {
-    position: absolute; 
+    position: absolute;
     left: -9999px;
-  
+
 }
 
 
@@ -1382,7 +1382,7 @@ a.button-grey .button-right {
 
 .radio-std > .radio-image {
     position: absolute;
-   
+
     width: 19px;
     height: 19px;
     background: transparent url(../images/forms/radio.png) no-repeat left top;
@@ -1395,18 +1395,18 @@ a.button-grey .button-right {
 
 .radio-std:hover > .radio-image,
 .radio-std.focus > .radio-image {
-    background: transparent url(../images/forms/radio-focus.png) no-repeat left top;    
+    background: transparent url(../images/forms/radio-focus.png) no-repeat left top;
     background: transparent url(../images/forms/form-sprite.png) no-repeat -25px -690px;
 }
 
 .radio-std.active > .radio-image  {
-    background: transparent url(../images/forms/radio-active.png) no-repeat left top;    
+    background: transparent url(../images/forms/radio-active.png) no-repeat left top;
     background: transparent url(../images/forms/form-sprite.png) no-repeat -50px -690px;
 }
 
 
 .radio-std.checked > .radio-image  {
-    background: transparent url(../images/forms/radio-checked.png) no-repeat left top;    
+    background: transparent url(../images/forms/radio-checked.png) no-repeat left top;
     background: transparent url(../images/forms/form-sprite.png) no-repeat -75px -690px;
 
 }
@@ -1417,39 +1417,39 @@ a.button-grey .button-right {
 }
 
 .radio-std.checked.active > .radio-image  {
-    background: transparent url(../images/forms/radio-checked-active.png) no-repeat left top;    
+    background: transparent url(../images/forms/radio-checked-active.png) no-repeat left top;
     background: transparent url(../images/forms/form-sprite.png) no-repeat -125px -690px;
 }
 
 
 /* JS Drag slider, common options */
 /* NARROW; DEFAULT is TRACK 20 (thin), HANDLE 32 (thick) */
-.slider {     
+.slider {
     position: relative;
     width: 200px;
     height: 38px;
     padding-right: 24px;
-    margin-top: -2px;   /* just for the bar's 2px upper space */    
+    margin-top: -2px;   /* just for the bar's 2px upper space */
 }
 
 
 .slider-handle {
     position: absolute;
     cursor: pointer;
-    text-align: center;     
-    z-index: 10;    
+    text-align: center;
+    z-index: 10;
     margin-top: 0px;
-    
+
     width: 90px;
     height: 38px;
-   
+
     color: #FFF;
     padding-right: 10px;
 
     font-size: 13px;
     line-height: 37px;
-    
-   
+
+
 }
 
 .slider.smalltext > .slider-handle {
@@ -1457,26 +1457,26 @@ a.button-grey .button-right {
 }
 
 
-.slider-handle > .handle-text {   
+.slider-handle > .handle-text {
     /*height: 100%;   */
-    background: transparent url(../images/forms/slider-handle-32.png) no-repeat 0 0px ;  
+    background: transparent url(../images/forms/slider-handle-32.png) no-repeat 0 0px ;
     padding-left: 10px;
     height: 38px;
-   
+
 }
 
-.slider-handle > .handle-right {   
-    height: 100%;    
+.slider-handle > .handle-right {
+    height: 100%;
     position: absolute;
     right: 0;
     top: 0;
-    background: transparent url(../images/forms/slider-handle-32.png) no-repeat right 0px ;     
-    width: 10px;  
+    background: transparent url(../images/forms/slider-handle-32.png) no-repeat right 0px ;
+    width: 10px;
 }
 
 .slider-track-body {
-    height: 100%;  
-    background: transparent url(../images/forms/slider-track-20.png) no-repeat 0 3px ;  
+    height: 100%;
+    background: transparent url(../images/forms/slider-track-20.png) no-repeat 0 3px ;
 }
 
 .slider-track-right {
@@ -1484,29 +1484,29 @@ a.button-grey .button-right {
     right: 0;
     top: 0;
     height: 100%;
-    background: transparent url(../images/forms/slider-track-20.png) no-repeat right 3px ;  
+    background: transparent url(../images/forms/slider-track-20.png) no-repeat right 3px ;
     width: 24px;
 }
 
 
 /* VARIANTS */
 .slider.outerglow > .slider-handle > .handle-text {
-    background: transparent url(../images/forms/slider-handle-32-outerglow.png) no-repeat 0 0px ;  
+    background: transparent url(../images/forms/slider-handle-32-outerglow.png) no-repeat 0 0px ;
 }
 
 .slider.outerglow > .slider-handle > .handle-right {
-    background: transparent url(../images/forms/slider-handle-32-outerglow.png) no-repeat right 0px ;  
+    background: transparent url(../images/forms/slider-handle-32-outerglow.png) no-repeat right 0px ;
 }
 
 
 
 .slider.handle32-light > .slider-handle > .handle-text {
-    background: transparent url(../images/forms/slider-handle-light-32.png) no-repeat 0 0px ;  
+    background: transparent url(../images/forms/slider-handle-light-32.png) no-repeat 0 0px ;
     color: #333;
 }
 
 .slider.handle32-light > .slider-handle > .handle-right {
-    background: transparent url(../images/forms/slider-handle-light-32.png) no-repeat right 0px ;  
+    background: transparent url(../images/forms/slider-handle-light-32.png) no-repeat right 0px ;
 }
 
 
@@ -1515,57 +1515,57 @@ a.button-grey .button-right {
 }
 
 .slider.handle30 > .slider-handle > .handle-text {
-    background: transparent url(../images/forms/slider-handle-30.png) no-repeat 0 0px ;  
+    background: transparent url(../images/forms/slider-handle-30.png) no-repeat 0 0px ;
     padding-left: 10px;
-    
+
 }
 
 .slider.handle30 > .slider-handle > .handle-right {
-    background: transparent url(../images/forms/slider-handle-30.png) no-repeat right 0px ;     
-    width: 10px;  
+    background: transparent url(../images/forms/slider-handle-30.png) no-repeat right 0px ;
+    width: 10px;
 }
 
 .slider.track22 > .slider-track-body {
-    background: transparent url(../images/forms/slider-track-22.png) no-repeat 0 2px ;  
+    background: transparent url(../images/forms/slider-track-22.png) no-repeat 0 2px ;
 }
 
 .slider.track22 > .slider-track-right {
-    background: transparent url(../images/forms/slider-track-22.png) no-repeat right 2px ;  
+    background: transparent url(../images/forms/slider-track-22.png) no-repeat right 2px ;
     xwidth: 24px;
 
 }
 
 .slider.dark > .slider-track-body {
-    background: transparent url(../images/forms/slider-track-20-dark.png) no-repeat 0 3px ;  
+    background: transparent url(../images/forms/slider-track-20-dark.png) no-repeat 0 3px ;
 }
 
 .slider.dark > .slider-track-right {
-    background: transparent url(../images/forms/slider-track-20-dark.png) no-repeat right 3px ;  
-   
+    background: transparent url(../images/forms/slider-track-20-dark.png) no-repeat right 3px ;
+
 }
 
 .slider.track22.dark > .slider-track-body {
-    background: transparent url(../images/forms/slider-track-22-dark.png) no-repeat 0 2px ;  
+    background: transparent url(../images/forms/slider-track-22-dark.png) no-repeat 0 2px ;
 }
 
 .slider.track22.dark > .slider-track-right {
-    background: transparent url(../images/forms/slider-track-22-dark.png) no-repeat right 2px ;  
+    background: transparent url(../images/forms/slider-track-22-dark.png) no-repeat right 2px ;
 }
 
 .slider.track16 > .slider-track-body {
-    background: transparent url(../images/forms/slider-track-16.png) no-repeat 0 8px ;  
+    background: transparent url(../images/forms/slider-track-16.png) no-repeat 0 8px ;
 }
 
 .slider.track16 > .slider-track-right {
-    background: transparent url(../images/forms/slider-track-16.png) no-repeat right 8px ;   
+    background: transparent url(../images/forms/slider-track-16.png) no-repeat right 8px ;
 }
 
 .slider.track16-dark > .slider-track-body {
-    background: transparent url(../images/forms/slider-track-16-dark.png) no-repeat 0 8px ;  
+    background: transparent url(../images/forms/slider-track-16-dark.png) no-repeat 0 8px ;
 }
 
 .slider.track16-dark > .slider-track-right {
-    background: transparent url(../images/forms/slider-track-16-dark.png) no-repeat right 8px ;   
+    background: transparent url(../images/forms/slider-track-16-dark.png) no-repeat right 8px ;
 }
 
 
@@ -1580,11 +1580,11 @@ a.button-grey .button-right {
 }
 
 .slider.tall > .slider-track-body {
-    background: transparent url(../images/forms/slider-track-32.png) no-repeat 0 0px ;  
+    background: transparent url(../images/forms/slider-track-32.png) no-repeat 0 0px ;
 }
 
 .slider.tall > .slider-track-right {
-    background: transparent url(../images/forms/slider-track-32.png) no-repeat right 0px ;  
+    background: transparent url(../images/forms/slider-track-32.png) no-repeat right 0px ;
     width: 24px;
 
 }
@@ -1598,19 +1598,19 @@ a.button-grey .button-right {
     color: #FFF;
     padding-right: 10px;
     */
-  
+
 }
 
 /*
 
 .slider.tall > .slider-handle > .handle-text {
-    background: transparent url(../images/forms/slider-handle-32.png) no-repeat 0 0px ;  
+    background: transparent url(../images/forms/slider-handle-32.png) no-repeat 0 0px ;
     padding-left: 10px;
 }
 
 .slider.tall > .slider-handle > .handle-right {
-    background: transparent url(../images/forms/slider-handle-32.png) no-repeat right 0px ;     
-    width: 10px;  
+    background: transparent url(../images/forms/slider-handle-32.png) no-repeat right 0px ;
+    width: 10px;
 }
 */
 
@@ -1626,21 +1626,21 @@ a.button-grey .button-right {
 
 
 .slider-thin > .slider-track-body {
-    background: transparent url(../images/forms/slider-track-16.png) no-repeat 0 6px ;  
+    background: transparent url(../images/forms/slider-track-16.png) no-repeat 0 6px ;
 }
 
 .slider-thin > .slider-track-right {
-    background: transparent url(../images/forms/slider-track-16.png) no-repeat right 6px ;  
+    background: transparent url(../images/forms/slider-track-16.png) no-repeat right 6px ;
     width: 12px;
 
 }
 
 .slider-thin.dark > .slider-track-body {
-    background: transparent url(../images/forms/slider-track-16-dark.png) no-repeat 0 6px ;  
+    background: transparent url(../images/forms/slider-track-16-dark.png) no-repeat 0 6px ;
 }
 
 .slider-thin.dark > .slider-track-right {
-    background: transparent url(../images/forms/slider-track-16-dark.png) no-repeat right 6px ;  
+    background: transparent url(../images/forms/slider-track-16-dark.png) no-repeat right 6px ;
 }
 
 
@@ -1649,8 +1649,8 @@ a.button-grey .button-right {
     cursor: pointer;
     width: 23px;
     height: 34px;
-    
-    background: transparent url(../images/forms/slider-thin-handle-light-28.png) no-repeat left;   
+
+    background: transparent url(../images/forms/slider-thin-handle-light-28.png) no-repeat left;
 
     z-index: 10;
 }
@@ -1661,7 +1661,7 @@ a.button-grey .button-right {
 }
 */
 
-.slider-thin-handle.tall {    
+.slider-thin-handle.tall {
     margin-top: -1px;
     width: 23px;
     height: 36px;
@@ -1669,7 +1669,7 @@ a.button-grey .button-right {
 }
 
 
-.slider-thin-handle.pointed {    
+.slider-thin-handle.pointed {
     margin-top: 1px;
     width: 23px;
     height: 36px;
@@ -1702,10 +1702,10 @@ a.button-grey .button-right {
     width: 10px;
     position: absolute;
     height: 16px;
-    top: 10px;  
+    top: 10px;
     left: 4px;
     background-color: #ccc;
-  
+
     background: transparent url(../images/forms/slider-range-darkgrey-16.png) repeat-x left top;
     zbackground: transparent url(../images/forms/slider-range-grey-striped-16-alt.png) repeat-x left top;
     zbackground: transparent url(../images/forms/slider-range-darkgrey-16-alt.png) repeat-x left top;
@@ -1718,7 +1718,7 @@ a.button-grey .button-right {
 
 /**
 notes:
-to accomplish a shared border that changes color I created a 1px wide <span class="border-right"> 
+to accomplish a shared border that changes color I created a 1px wide <span class="border-right">
 that floats on the right
 
 **/
@@ -1741,18 +1741,18 @@ that floats on the right
 .horiz-control-link {
     display: block;
     height: 42px;
-  
-    text-align: center;    
+
+    text-align: center;
     position: relative;
-   
-    font-size: 15px;   
+
+    font-size: 15px;
     line-height: 42px;
     padding-right: 16px;
     float: left;
     margin-right: -1px;
 }
 
-.horiz-control.smalltext .horiz-control-link {  
+.horiz-control.smalltext .horiz-control-link {
     line-height: 42px;
     font-size: 14px;
 }
@@ -1773,10 +1773,10 @@ that floats on the right
     height: 100%;
     right: 0;
     top: 0;
-   
+
     background: url(../images/buttons/horiz-control-rect.png) no-repeat right top transparent;
     background: url(../images/buttons/horiz-control-sprite.png) no-repeat right 0px transparent;
-} 
+}
 
 .horiz-control-link.left > .text {
     padding-left: 20px;
@@ -1800,12 +1800,12 @@ that floats on the right
 }
 
 .horiz-control-link:hover > .text {
-    xbackground-image: url(../images/buttons/horiz-control-hover-rect.png); 
+    xbackground-image: url(../images/buttons/horiz-control-hover-rect.png);
     background-position: left -100px;
 }
 
 .horiz-control-link:hover > .right {
-    xbackground-image: url(../images/buttons/horiz-control-hover-rect.png);   
+    xbackground-image: url(../images/buttons/horiz-control-hover-rect.png);
     background-position: right -100px;
 }
 
@@ -1857,16 +1857,16 @@ that floats on the right
     position: absolute;
     width: 100%;
     bottom: -4px;
-   
+
     height: 9px;
-    
-    background: url(../images/buttons/horiz-control-selected-triangle.png) no-repeat center top transparent; 
+
+    background: url(../images/buttons/horiz-control-selected-triangle.png) no-repeat center top transparent;
     background: url(../images/buttons/horiz-control-sprite.png) no-repeat center -300px transparent;
 }
 
 
 .horiz-control-link.selected > .horiz-control-triangle {
-    display: block;  
+    display: block;
 }
 
 
@@ -1898,15 +1898,15 @@ that floats on the right
 
 
 .show-more-link > .text {
-   
+
     font-weight: bold;
- 
+
     display: block;
     xwidth: 120px;
     padding-right: 16px;
     /*border-bottom: 1px solid transparent;    */
- 
-   
+
+
 }
 
 .show-more-link.blue > .text {
@@ -1934,14 +1934,14 @@ that floats on the right
     zcolor: #557EBE;
     color: #5C88E6;
     background: transparent url(../images/icons/thin-arrow-lightblue-right.png) no-repeat right 0px;
-    
- 
+
+
 }
 
 .show-more-link.blue.down:hover > .text {
-  
+
     background: transparent url(../images/icons/thin-arrow-lightblue-down.png) no-repeat right 0px;
-    
+
 }
 
 .show-more-link.blue.up:hover > .text {
@@ -1949,19 +1949,19 @@ that floats on the right
 }
 
 
-.show-more-link.small { 
+.show-more-link.small {
     height: 12px;
     font-size: 12px;
     line-height: 12px;
 }
 
 
-.show-more-link.small.blue > .text {  
+.show-more-link.small.blue > .text {
     background: transparent url(../images/icons/thin-arrow-blue-right-odd.png) no-repeat right 0px;
 
 }
 
-.show-more-link.small.blue:hover > .text {  
+.show-more-link.small.blue:hover > .text {
     background: transparent url(../images/icons/thin-arrow-lightblue-right-odd.png) no-repeat right 0px;
 
 }
@@ -1982,7 +1982,7 @@ that floats on the right
 }
 
 .page-numbers.overflow {
-    
+
 }
 
 
@@ -1998,10 +1998,10 @@ that floats on the right
     display: block;
     position: relative;
     text-align: center;
-    float: left;  
+    float: left;
     height: 38px;
     font-size: 13px;
-    line-height: 39px;   
+    line-height: 39px;
     font-weight: bold;
     color: #555;
     width: 12px;
@@ -2011,7 +2011,7 @@ that floats on the right
     zzdisplay: block;
 }
 
-.page-number-ellipsis.left { 
+.page-number-ellipsis.left {
       margin: 0 1px 0 2px;
 }
 .page-number-ellipsis.right {
@@ -2024,7 +2024,7 @@ that floats on the right
     width: 33px;
     zwidth: 25px;
     z-index: 0;
-    background: url(../images/buttons/horiz-control-mini-disabled.png) no-repeat left top transparent; 
+    zbackground: url(../images/buttons/horiz-control-mini-disabled.png) no-repeat left top transparent;
 }
 
 
@@ -2044,7 +2044,7 @@ that floats on the right
 }
 
 .page-number-arrow {
-    display: block; 
+    display: block;
     position: relative;
     float: left;
     height: 38px;
@@ -2052,15 +2052,15 @@ that floats on the right
     zzmargin-right: -1px;
 }
 
-.page-number-arrow.left {    
+.page-number-arrow.left {
     margin-right: 4px;
-    background: url(../images/buttons/page-num-arrow-left.png) no-repeat left top transparent; 
-    background: url(../images/buttons/horiz-control-sprite.png) no-repeat left -550px transparent;  
+    background: url(../images/buttons/page-num-arrow-left.png) no-repeat left top transparent;
+    background: url(../images/buttons/horiz-control-sprite.png) no-repeat left -550px transparent;
 }
 .page-number-arrow.right {
     margin-left: 4px;
-    background: url(../images/buttons/page-num-arrow-right.png) no-repeat left top transparent; 
-    background: url(../images/buttons/horiz-control-sprite.png) no-repeat left -590px transparent;  
+    background: url(../images/buttons/page-num-arrow-right.png) no-repeat left top transparent;
+    background: url(../images/buttons/horiz-control-sprite.png) no-repeat left -590px transparent;
 }
 
 .page-number-arrow.left.overflow {
@@ -2071,13 +2071,13 @@ that floats on the right
 }
 
 .page-number-arrow.left:hover {
-    background: url(../images/buttons/page-num-arrow-left-hover.png) no-repeat left top transparent; 
-    background: url(../images/buttons/horiz-control-sprite.png) no-repeat left -630px transparent;  
+    background: url(../images/buttons/page-num-arrow-left-hover.png) no-repeat left top transparent;
+    background: url(../images/buttons/horiz-control-sprite.png) no-repeat left -630px transparent;
     z-index: 5;
 }
 .page-number-arrow.right:hover {
-    background: url(../images/buttons/page-num-arrow-right-hover.png) no-repeat left top transparent; 
-    background: url(../images/buttons/horiz-control-sprite.png) no-repeat left -670px transparent;  
+    background: url(../images/buttons/page-num-arrow-right-hover.png) no-repeat left top transparent;
+    background: url(../images/buttons/horiz-control-sprite.png) no-repeat left -670px transparent;
     z-index: 5;
 }
 
@@ -2089,24 +2089,24 @@ that floats on the right
 
 .page-number-arrow.rect.left {
     margin-right: -5px;
-    background: url(../images/buttons/page-num-arrow-left-rect.png) no-repeat left top transparent; 
-    
-    background: url(../images/buttons/horiz-control-sprite.png) no-repeat left -710px transparent;  
+    background: url(../images/buttons/page-num-arrow-left-rect.png) no-repeat left top transparent;
+
+    background: url(../images/buttons/horiz-control-sprite.png) no-repeat left -710px transparent;
 }
 .page-number-arrow.rect.right {
     zzmargin-left: 3px;
-    background: url(../images/buttons/page-num-arrow-right-rect.png) no-repeat left top transparent; 
-    background: url(../images/buttons/horiz-control-sprite.png) no-repeat left -750px transparent; 
+    background: url(../images/buttons/page-num-arrow-right-rect.png) no-repeat left top transparent;
+    background: url(../images/buttons/horiz-control-sprite.png) no-repeat left -750px transparent;
 }
 
 .page-number-arrow.rect.left:hover {
-    background: url(../images/buttons/page-num-arrow-left-hover-rect.png) no-repeat left top transparent; 
-    background: url(../images/buttons/horiz-control-sprite.png) no-repeat left -790px transparent; 
+    background: url(../images/buttons/page-num-arrow-left-hover-rect.png) no-repeat left top transparent;
+    background: url(../images/buttons/horiz-control-sprite.png) no-repeat left -790px transparent;
     z-index: 5;
 }
 .page-number-arrow.rect.right:hover {
-    background: url(../images/buttons/page-num-arrow-right-hover-rect.png) no-repeat left top transparent; 
-    background: url(../images/buttons/horiz-control-sprite.png) no-repeat left -830px transparent; 
+    background: url(../images/buttons/page-num-arrow-right-hover-rect.png) no-repeat left top transparent;
+    background: url(../images/buttons/horiz-control-sprite.png) no-repeat left -830px transparent;
     z-index: 5;
 }
 
@@ -2117,12 +2117,12 @@ that floats on the right
     display: block;
     position: relative;
     text-align: center;
-    float: left;  
+    float: left;
     height: 38px;
     font-size: 13px;
     line-height: 39px;
     margin-right: -1px;
-    padding-right: 4px;    
+    padding-right: 4px;
     font-weight: bold;
     z-index: 1;
 }
@@ -2132,7 +2132,7 @@ that floats on the right
     display: block;
     height: 100%;
     padding-left: 4px;
-    zbackground: url(../images/buttons/horiz-control-mini-rect.png) no-repeat left top transparent;    
+    zbackground: url(../images/buttons/horiz-control-mini-rect.png) no-repeat left top transparent;
 
 
     background: url(../images/buttons/horiz-control-sprite.png) no-repeat left -310px transparent;
@@ -2144,10 +2144,10 @@ that floats on the right
     height: 100%;
     right: 0;
     top: 0;
-   
+
     zbackground: url(../images/buttons/horiz-control-mini-rect.png) no-repeat right top transparent;
     background: url(../images/buttons/horiz-control-sprite.png) no-repeat right -310px transparent;
-} 
+}
 
 .page-number.left {
     padding-right: 4px;
@@ -2172,7 +2172,7 @@ that floats on the right
 .page-number.right > .text {
     zwidth: 25px;
     padding-left: 4px;
-   
+
 }
 
 .page-number.right > .right {
@@ -2187,12 +2187,12 @@ that floats on the right
 }
 
 .page-number:hover > .text {
-    zbackground-image: url(../images/buttons/horiz-control-mini-hover-rect.png); 
+    zbackground-image: url(../images/buttons/horiz-control-mini-hover-rect.png);
     background-position: left -390px;
 }
 
 .page-number:hover > .right {
-    zbackground-image: url(../images/buttons/horiz-control-mini-hover-rect.png);   
+    zbackground-image: url(../images/buttons/horiz-control-mini-hover-rect.png);
     background-position: right -390px;
 }
 .page-number.left:hover > .text {

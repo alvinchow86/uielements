@@ -9,7 +9,7 @@
     <title>UI Test 2</title>
 
 
-        <link href="static/css/toplayout.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="static/css/toplayout.css" rel="stylesheet" type="text/css" media="screen" />
     <link href="static/css/common_ui.css" rel="stylesheet" type="text/css" media="screen" />
     <link href="static/css/findbankrates.css" rel="stylesheet" type="text/css" media="screen" />
 
@@ -39,67 +39,67 @@
     <link href="static/css/uitest.css" rel="stylesheet" type="text/css" media="screen" />
 
 
-<script type="text/javascript" src="static/js/uitest2.js"></script>
-<!-- <script type="text/javascript" src="static/js/pagenumbers_broken.js"></script> -->
+    <script type="text/javascript" src="static/js/uitest2.js"></script>
+    <!-- <script type="text/javascript" src="static/js/pagenumbers_broken.js"></script> -->
 
 
-<script type="text/javascript">
-//var printer;
+    <script type="text/javascript">
+      //var printer;
 
-//function myprint(msg) {
-//  printer.html(String(numprints) + ':' + msg);
-//numprints ++;
-//}
-
-
-
-
-  $(function() {
-
-
- printer = $("#printer");
+      //function myprint(msg) {
+      //  printer.html(String(numprints) + ':' + msg);
+      //numprints ++;
+      //}
 
 
 
-    var singleslider = new SliderControl('singleslider', {
+
+      $(function() {
+
+
+      printer = $("#printer");
+
+
+
+      var singleslider = new SliderControl('singleslider', {
       steps:10,
 
-//  snap: true,
+      //  snap: true,
       slide: true
-// initVal: 0.3,
-//  speed: 100
+      // initVal: 0.3,
+      //  speed: 100
 
-//loose: true
-  //loose: true
-    });
-    singleslider.setCallback(function(val) {console.log(val);});
-  //singleslider.addAnimationCallback(function(val) { console.log('animate:' + val);});
-  singleslider.setValue(0.5);
-  //singleslider.setStep(5);
+      //loose: true
+      //loose: true
+      });
+      singleslider.setCallback(function(val) {console.log(val);});
+      //singleslider.addAnimationCallback(function(val) { console.log('animate:' + val);});
+      singleslider.setValue(0.5);
+      //singleslider.setStep(5);
 
 
-    var thinslider = new SliderControl('thinslider', {
+      var thinslider = new SliderControl('thinslider', {
 
-//  leftPadding:-15,
-//  rightPadding:-15,
-//outsideMode: true,
+      //  leftPadding:-15,
+      //  rightPadding:-15,
+      //outsideMode: true,
       //  snap: true,
       slide: true,
-//initVal: 1.0
+      //initVal: 1.0
 
-     handleOffset: 0
+      handleOffset: 0
 
-  });
-  thinslider.setCallback(function(val) {console.log('callback:' + val);});
-
-
-
-  });
+      });
+      thinslider.setCallback(function(val) {console.log('callback:' + val);});
 
 
-</script>
 
-        <script type="text/javascript">
+      });
+
+
+    </script>
+
+    <script type="text/javascript">
 
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-23045519-1']);
@@ -118,295 +118,6 @@
   <body  >
 
 
-    <div id="header-wrap">
-
-      <div id="header">
-
-        <div id="header-top">
-          <!--<div id="logo">FindBankRates.com</div>-->
-          <!--<a href="/" style="font-size: 30px; display: block; padding-top: 30px;"> FindBankRates.com </a>-->
-          <a href="/" id="header-logo"></a>
-
-
-          <div id="top-nav">
-            <div id="user-account-nav">
-
-              <a class="user-account-nav-link user-account-nav-item" href="/accounts/login/?next=/uitest2/"> Login </a>
-              <span class="user-account-nav-divider user-account-nav-item"> | </span>
-              <a class="user-account-nav-link user-account-nav-item" href="/accounts/register/"> Register </a>
-                          </div>
-
-          </div>
-          <!-- end top-nav -->
-
-        </div>
-        <!-- end header-top -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <div id="main-nav-wrap">
-          <ul id="main-nav">
-
-            <li class="main-nav-item first has-subnav" id="main-nav-item-cd">
-              <a class="main-nav-link first unselected " id="main-nav-link-cd" href="/cd-rates/" >
-
-                <span class="link-text">CD Rates </span>
-
-                        <span class="link-left"></span>
-
-        <span class="main-nav-hover-shadow left"></span>
-        <span class="main-nav-hover-shadow right"></span>
-        <span class="main-nav-hover-shadow top"><span class="right"></span>  <span class="left"></span>  </span>
-
-
-              </a>
-              <div class="main-subnav" id="main-subnav-cd">
-                <div class="main-subnav-shadow-tr"></div>
-                <div class="main-subnav-shadow-br"></div>
-                <div class="main-subnav-shadow-left">
-                  <ul class="main-subnav-items cd">
-                    <li class="main-subnav-item first"><a href="/cd-rates/6-month/online"> Online 6 month CD Rates </a></li>
-                    <li class="main-subnav-item"><a href="/cd-rates/1-year/online"> Online 1 Year CD Rates </a></li>
-                    <li class="main-subnav-item"><a href="/cd-rates/2-year/online"> Online 2 Year CD Rates </a></li>
-                    <li class="main-subnav-item"><a href="/cd-rates/3-year/online"> Online 3 Year CD Rates </a></li>
-                    <li class="main-subnav-item"><a href="/cd-rates/5-year/online/"> Online 5 Year CD Rates </a></li>
-
-
-                    <!--
-                    <li class="main-subnav-item"><a href="/cd-rates/"> Local CD Rates </a></li>
-                    <li class="main-subnav-item"><a href="/cd-rates/"> Latest CD Rate Updates</a></li>
-                    -->
-                  </ul>
-                </div>
-              </div>
-            </li>
-
-            <li class="main-nav-item has-subnav"  id="main-nav-item-savings">
-              <a class="main-nav-link unselected " id="main-nav-link-savings" href="/savings/" >
-
-                <span class="link-text">Savings</span>
-                        <span class="link-left"></span>
-
-        <span class="main-nav-hover-shadow left"></span>
-        <span class="main-nav-hover-shadow right"></span>
-        <span class="main-nav-hover-shadow top"><span class="right"></span>  <span class="left"></span>  </span>
-
-
-              </a>
-
-              <div class="main-subnav" id="main-subnav-savings">
-                <div class="main-subnav-shadow-tr"></div><div class="main-subnav-shadow-br"></div>
-                <div class="main-subnav-shadow-left">
-                  <ul class="main-subnav-items">
-                    <li class="main-subnav-item first"><a href="/savings/online"> Online Savings Rates</a></li>
-                    <li class="main-subnav-item"><a href="/money-market/online"> Online Money Market Rates</a></li>
-                    <li class="main-subnav-item"><a href="/ira-savings/online"> Online IRA Savings Rates</a></li>
-                    <li class="main-subnav-item"><a href="/ira-money-market/online"> Online IRA Money Market Rates</a></li>
-                                        <!--<li class="main-subnav-item"><a href="/savings/"> Latest Savings Rate Updates</a></li>-->
-                  </ul>
-
-                </div>
-              </div>
-            </li>
-
-            <li class="main-nav-item has-subnav"  id="main-nav-item-checking">
-              <a class="main-nav-link unselected " id="main-nav-link-checking" href="/checking/">
-                <span class="link-text">Checking</span>
-                        <span class="link-left"></span>
-
-        <span class="main-nav-hover-shadow left"></span>
-        <span class="main-nav-hover-shadow right"></span>
-        <span class="main-nav-hover-shadow top"><span class="right"></span>  <span class="left"></span>  </span>
-
-
-
-              </a>
-
-              <div class="main-subnav" id="main-subnav-checking">
-                <div class="main-subnav-shadow-tr"></div> <div class="main-subnav-shadow-br"></div>
-                <div class="main-subnav-shadow-left">
-                  <ul class="main-subnav-items">
-                    <li class="main-subnav-item first"><a href="/interest-checking/online"> Online Personal Checking Rates</a></li>
-                    <li class="main-subnav-item"><a href="/business-checking/online"> Online Business Checking Rates</a></li>
-
-
-                    <!--
-                    <li class="main-subnav-item"><a href="/checking/"> Local Checking Rates</a></li>
-                    <li class="main-subnav-item"><a href="/checking/"> Latest Checking Rate Updates</a></li>
-                    -->
-                  </ul>
-
-                </div>
-              </div>
-
-            </li>
-
-
-            <!--<li class="main-nav-item "><a class="main-nav-link" href="#"><span>Loans </span></a>  </li>-->
-
-            <!--
-            <li class="main-nav-item has-subnav"  id="main-nav-item-credit-cards">
-              <a class="main-nav-link unselected " id="main-nav-link-credit-cards" href="#">
-                <span class="link-text">Credit Cards</span>
-                        <span class="link-left"></span>
-
-        <span class="main-nav-hover-shadow left"></span>
-        <span class="main-nav-hover-shadow right"></span>
-        <span class="main-nav-hover-shadow top"><span class="right"></span>  <span class="left"></span>  </span>
-
-
-              </a>
-              <div class="main-subnav" id="main-subnav-credit-cards">
-                <div class="main-subnav-shadow-tr"></div><div class="main-subnav-shadow-br"></div>
-                <div class="main-subnav-shadow-left">
-                  <ul class="main-subnav-items">
-                    <li class="main-subnav-item first"><a href="#"> Reward Credit Cards</a></li>
-                    <li class="main-subnav-item"><a href="#"> Cash Back Credit Cards</a></li>
-                    <li class="main-subnav-item"><a href="#"> Low Interest Credit Cards</a></li>
-                  </ul>
-                </div>
-              </div>
-
-            </li>
-            -->
-
-            <li class="main-nav-item has-subnav"  id="main-nav-item-banks">
-              <a class="main-nav-link bank unselected " id="main-nav-link-banks"  href="/banks/">
-                <span class="link-text">Banks</span>
-                        <span class="link-left"></span>
-
-        <span class="main-nav-hover-shadow left"></span>
-        <span class="main-nav-hover-shadow right"></span>
-        <span class="main-nav-hover-shadow top"><span class="right"></span>  <span class="left"></span>  </span>
-
-
-              </a>
-              <div class="main-subnav" id="main-subnav-banks">
-                <div class="main-subnav-shadow-tr"></div><div class="main-subnav-shadow-br"></div>
-                <div class="main-subnav-shadow-left">
-                  <ul class="main-subnav-items">
-                    <li class="main-subnav-item first"><a href="#"> Find a Local Bank</a></li>
-                    <li class="main-subnav-item"><a href="#"> Find a Local Credit Union</a></li>
-                    <!--<li class="main-subnav-item"><a href="#"> Online Banks </a></li>-->
-                  </ul>
-                </div>
-              </div>
-
-            </li>
-
-
-            <li class="main-nav-item  has-subnav"  id="main-nav-item-news">
-              <a class="main-nav-link unselected "  id="main-nav-link-news" href="/news">
-                <span class="link-text">News </span>
-                        <span class="link-left"></span>
-
-        <span class="main-nav-hover-shadow left"></span>
-        <span class="main-nav-hover-shadow right"></span>
-        <span class="main-nav-hover-shadow top"><span class="right"></span>  <span class="left"></span>  </span>
-
-
-              </a>
-              <div class="main-subnav" id="main-subnav-news">
-                <div class="main-subnav-shadow-tr"></div><div class="main-subnav-shadow-br"></div>
-                <div class="main-subnav-shadow-left">
-                  <ul class="main-subnav-items">
-                    <li class="main-subnav-item first"><a href="/news/bank-deals"> Bank Deals </a></li>
-                    <li class="main-subnav-item"><a href="/news/banking-news"> Banking News </a></li>
-                    <li class="main-subnav-item"><a href="/news/cd-rates"> CD Rates</a></li>
-                    <li class="main-subnav-item"><a href="/news/savings"> Savings </a></li>
-                    <li class="main-subnav-item"><a href="/news/checking"> Checking </a></li>
-                  </ul>
-                </div>
-              </div>
-
-
-            </li>
-
-
-            <li class="main-nav-item has-subnav"  id="main-nav-item-personal-finance">
-              <a class="main-nav-link  unselected last "  id="main-nav-link-personal-finance" href="/personal-finance">
-                <span class="link-text">Personal Finance</span>
-                        <span class="link-left"></span>
-
-        <span class="main-nav-hover-shadow left"></span>
-        <span class="main-nav-hover-shadow right"></span>
-        <span class="main-nav-hover-shadow top"><span class="right"></span>  <span class="left"></span>  </span>
-
-
-              </a>
-              <div class="main-subnav" id="main-subnav-personal-finance">
-                <div class="main-subnav-shadow-tr"></div><div class="main-subnav-shadow-br"></div>
-                <div class="main-subnav-shadow-left">
-                  <ul class="main-subnav-items">
-                    <li class="main-subnav-item first"><a href="/personal-finance/glossary"> Glossary </a></li>
-                    <li class="main-subnav-item"><a href="/personal-finance/mortgage"> Mortgage </a></li>
-                    <li class="main-subnav-item"><a href="/personal-finance/credit"> Credit</a></li>
-                  </ul>
-                </div>
-              </div>
-
-            </li>
-
-          </ul>
-
-
-          <div id="user-location">
-
-            <span id="user-location-label"  style="display:none" >  Selected location:  </span>
-            <a id="user-location-link" href="#" onclick="return false;" title="Please enter your location">
-                            Set your location
-                          </a>
-         </div>
-
-          <div style="display:none">
-            <div id="user-location-tooltip"  class="user-location-tooltip">
-              <div class="user-location-tooltip-label"> Enter a new location:</div>
-
-              <div class="user-location-tooltip-textinput textfield-std has-button lightshadow">
-                <div class="textfield-left">
-                  <input  type="text" class="user-location-tooltip-input textfield-input" autocomplete="off"/>
-                </div>
-                <div class="textfield-right"></div>
-
-                <a href="#" class="user-location-tooltip-button textfield-button darkgrey" onclick="return false;">
-                  <span class="text"> Go</span>
-                  <span class="right"></span>
-                </a>
-              </div>
-
-              <a class="user-location-tooltip-clear" href="#"> (clear location) </a>
-
-            </div>
-          </div>
-
-
-          <!-- TODO: temporarily here, move it later -->
-          <form id="change-location-form" name="change-location-form" action="/change-user-location">
-            <input id="change-location-clear" type="hidden" name="clear_location"/>
-            <input id="change-location-city" type="hidden" name="city"/>
-            <input id="change-location-state" type="hidden" name="state"/>
-            <input id="change-location-zip" type="hidden" name="zip"/>
-            <input id="change-location-redirect-path" type="hidden" name="redirect_path" value="/uitest2/"/>
-
-                        <input type="hidden" name="page_type"/>
-                      </form>
-
-
-        </div>
-        <!-- END main-nav-wrap -->
-
-      </div>
-    </div>
 
     <div id="page-wrap">
       <div id="main-wrap">
@@ -415,750 +126,704 @@
           <div id="content-main">
 
 
-    <div id="content-left">
+            <div id="content-left">
 
 
 
 
 
-<div class="std-white-box border left">
-  <div class="corner-tr"></div>
-  <div class="corner-bl"></div>
-  <div class="box-br">
-    <div class="box-tl">
-      <div class="box-content" >
-        <div class="box-content-padding">
+              <div class="std-white-box border left">
+                <div class="corner-tr"></div>
+                <div class="corner-bl"></div>
+                <div class="box-br">
+                  <div class="box-tl">
+                    <div class="box-content" >
+                      <div class="box-content-padding">
 
 
-          <div class="slider tall slidertest" id="slidertest1" style="width: 500px;">
+                        <div class="slider tall slidertest" id="slidertest1" style="width: 500px;">
 
-            <div class="handle slider-handle">
-              <div class="handle-text">Balance</div>
-              <div class="handle-right"></div>
-            </div>
-            <div class="slider-track-body"></div>
-            <div class="slider-track-right"></div>
-
-          </div>
-
-
-          <div id="console"></div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-<div class="std-white-box border left">
-  <div class="corner-tr"></div>
-  <div class="corner-bl"></div>
-  <div class="box-br">
-    <div class="box-tl">
-      <div class="box-content" >
-        <div class="box-content-padding">
-
-
-          <!-- paired slider and text display -->
-          <div class="slider tall slidertest" id="depositslider" style="width: 400px; float: left;">
-
-            <div class="handle slider-handle">
-              <div class="handle-text">Balance</div>
-              <div class="handle-right"></div>
-            </div>
-            <div class="slider-track-body"></div>
-            <div class="slider-track-right"></div>
-
-          </div>
-
-          <div id="depositval" class="textfield-std" style="float: left;width:80px; margin-left: 6px;">
-            <div class="textfield-left">
-              <input type="text" class="textfield-input" id="depositval_input"  value="$1,000" autocomplete="off"/>
-            </div>
-            <div class="textfield-right"></div>
-
-          </div>
-
-          <div class="floatclear"></div>
-
-
-          <br/>
-
-          <!-- paired slider and text display -->
-          <div class="slider tall slidertest" id="depositslider2" style="width: 400px; float: left;">
-
-            <div class="handle slider-handle">
-              <div class="handle-text">Balance</div>
-              <div class="handle-right"></div>
-            </div>
-            <div class="slider-track-body"></div>
-            <div class="slider-track-right"></div>
-
-          </div>
-
-
-
-          <div id="depositval" class="textfield-std" style="float: left;width:80px; margin-left: 6px;">
-            <div class="textfield-left">
-              <input type="text" class="textfield-input" id="depositval_input2"  value="" autocomplete="off"/>
-            </div>
-            <div class="textfield-right"></div>
-
-          </div>
-
-          <div class="floatclear"></div>
-
-
-
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-<div class="std-white-box border left">
-  <div class="corner-tr"></div>
-  <div class="corner-bl"></div>
-  <div class="box-br">
-    <div class="box-tl">
-      <div class="box-content" >
-        <div class="box-content-padding">
-
-          <div class="slider tall slidertest" id="singleslider" style="width: 500px;">
-
-            <div class="handle slider-handle" >
-              <div class="handle-text">Balance</div>
-              <div class="handle-right"></div>
-            </div>
-
-            <div class="slider-track-body"></div>
-            <div class="slider-track-right"></div>
-
-          </div>
-
-          <div class="slider tall slidertest" id="thinslider" style="width: 200px;">
-
-            <div class="handle slider-handle handle-left" style="width: 20px;" >
-              <div class="handle-text"></div>
-              <div class="handle-right"></div>
-            </div>
-
-
-            <!--
-            <div class="handle slider-handle handle-right" style="width:20px">
-              <div class="handle-text">Balance</div>
-              <div class="handle-right"></div>
-            </div>
-            -->
-
-            <div class="slider-track-body"></div>
-            <div class="slider-track-right"></div>
-
-          </div>
-
-          <!--
-          <div class="slider  narrow  narrowtrack" id="dualslider" style="width: 400px;">
-
-            <div class="slider-range-test range-bar" style="height: 18px; top: 8px">
-
-            </div>
-
-            <div class="handle slider-handle handle-left" style="width: 10px;" >
-              <div class="handle-text"></div>
-              <div class="handle-right"></div>
-            </div>
-
-            <div class="handle slider-handle handle-right" style="width:10px; left: 100px;">
-              <div class="handle-text"></div>
-              <div class="handle-right"></div>
-            </div>
-
-
-            <div class="slider-track-body"></div>
-            <div class="slider-track-right"></div>
-
-          </div>
-
-          -->
-
-          <div class="slider-thin" id="rangeslider" style="width: 400px; margin-top: 20px;">
-
-            <div class="slider-range range-bar">
-            </div>
-
-            <div class="handle-left slider-thin-handle handle tall">
-            </div>
-
-            <div class="handle-right slider-thin-handle handle tall" style="left: 100px;">
-            </div>
-
-
-            <div class="slider-track-body"></div>
-            <div class="slider-track-right"></div>
-
-          </div>
-
-
-
-          <div class="slider-thin" id="rangeslider2" style="width: 400px; margin-top: 20px;">
-            <div class="slider-range range-bar">
-            </div>
-
-            <div class="handle-left slider-thin-handle">
-            </div>
-
-            <div class="handle-right slider-thin-handle" style="left: 100px;">
-            </div>
-
-
-            <div class="slider-track-body"></div>
-            <div class="slider-track-right"></div>
-          </div>
-
-
-          <div class="slider-thin" id="rangeslider3" style="width: 400px; margin-top: 20px;">
-            <div class="slider-range range-bar">
-            </div>
-
-            <div class="handle-left slider-thin-handle pointed">
-            </div>
-
-            <div class="handle-right slider-thin-handle pointed" style="left: 100px;">
-            </div>
-
-
-            <div class="slider-track-body"></div>
-            <div class="slider-track-right"></div>
-          </div>
-
-          <!-- Fill sliders -->
-
-          <div class="slider track16 handle32-light fillslider" id="fillslider1" style="width: 500px; margin-top: 10px;">
-
-            <div class="slider-fill">
-            </div>
-
-            <div class="handle slider-handle" style="width: 80px">
-              <div class="handle-text">Deposit</div>
-              <div class="handle-right"></div>
-            </div>
-
-            <div class="slider-track-body"></div>
-            <div class="slider-track-right"></div>
-
-          </div>
-
-          <div class="slider track16 fillslider outerglow" id="fillslider2" style="width: 500px; margin-top: 10px;">
-
-            <div class="slider-fill">
-            </div>
-
-            <div class="handle slider-handle " style="width: 80px">
-              <div class="handle-text">Deposit</div>
-              <div class="handle-right"></div>
-            </div>
-
-            <div class="slider-track-body"></div>
-            <div class="slider-track-right"></div>
-
-          </div>
-
-
-          <div id="printer" style="height:30px;"> messages </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<div class="std-white-box border left">
-    <div class="corner-tr"></div>
-  <div class="corner-bl"></div>
-  <div class="box-br">
-    <div class="box-tl">
-      <div class="box-content" >
-                <div class="box-content-padding " >
-
-
-   <div>
-
-     <div class="page-nav  page-num-test "  id="page-numbers-test" >
-
-
-  <a class="left-arrow page-number-arrow left  overflow " href="#" onclick="return false;"></a>
-
-
-  <div class="page-number-ellipsis left left-ellipsis" >
-    <span class="text" style="display:none">... </span>
-  </div>
-
-  <div class="page-numbers   overflow ">
-
-    <a class="number page-number   selected left  "
-              href="#" onclick="return false;">
-      <span class="text">1 </span>
-      <span class="right"></span>
-    </a>
-
-
-    <a class="number page-number   "
-              href="#" onclick="return false;">
-      <span class="text">2 </span>
-      <span class="right"></span>
-    </a>
-
-
-    <a class="number page-number   "
-              href="#" onclick="return false;">
-      <span class="text">3 </span>
-      <span class="right"></span>
-    </a>
-
-
-    <a class="number page-number   "
-              href="#" onclick="return false;">
-      <span class="text">4 </span>
-      <span class="right"></span>
-    </a>
-
-
-    <a class="number page-number   "
-              href="#" onclick="return false;">
-      <span class="text">5 </span>
-      <span class="right"></span>
-    </a>
-
-
-    <a class="number page-number    right "
-              href="#" onclick="return false;">
-      <span class="text">6 </span>
-      <span class="right"></span>
-    </a>
-
-
-    <a class="number page-number   "
-        style="display:none"        href="#" onclick="return false;">
-      <span class="text">7 </span>
-      <span class="right"></span>
-    </a>
-
-
-    <a class="number page-number   "
-        style="display:none"        href="#" onclick="return false;">
-      <span class="text">8 </span>
-      <span class="right"></span>
-    </a>
-
-
-    <a class="number page-number   "
-        style="display:none"        href="#" onclick="return false;">
-      <span class="text">9 </span>
-      <span class="right"></span>
-    </a>
-
-
-    <a class="number page-number   "
-        style="display:none"        href="#" onclick="return false;">
-      <span class="text">10 </span>
-      <span class="right"></span>
-    </a>
-
-      </div>
-
-
-  <div class="page-number-ellipsis right right-ellipsis">
-    <span class="text">... </span>
-  </div>
-
-
-  <a class="right-arrow page-number-arrow right  overflow " href="#" onclick="return false;"></a>
-
-</div>
-
-      <div class="floatclear" style="height: 10px"></div>
-
-      <div class="page-nav  page-num-test "  id="page-numbers-test2" >
-
-
-  <a class="left-arrow page-number-arrow left " href="#" onclick="return false;"></a>
-
-
-  <div class="page-numbers  ">
-
-    <a class="number page-number   selected left  "
-              href="#" onclick="return false;">
-      <span class="text">1 </span>
-      <span class="right"></span>
-    </a>
-
-
-    <a class="number page-number   "
-              href="#" onclick="return false;">
-      <span class="text">2 </span>
-      <span class="right"></span>
-    </a>
-
-
-    <a class="number page-number   "
-              href="#" onclick="return false;">
-      <span class="text">3 </span>
-      <span class="right"></span>
-    </a>
-
-
-    <a class="number page-number   "
-              href="#" onclick="return false;">
-      <span class="text">4 </span>
-      <span class="right"></span>
-    </a>
-
-
-    <a class="number page-number    right "
-              href="#" onclick="return false;">
-      <span class="text">5 </span>
-      <span class="right"></span>
-    </a>
-
-      </div>
-
-
-  <a class="right-arrow page-number-arrow right " href="#" onclick="return false;"></a>
-
-</div>
-
-      <div class="floatclear" style="height: 10px"></div>
-
-      <div class="page-nav  page-num-test "  id="page-numbers-test3" >
-
-
-
-  <div class="page-numbers   overflow ">
-
-    <a class="number page-number   selected left  "
-              href="#" onclick="return false;">
-      <span class="text">1 </span>
-      <span class="right"></span>
-    </a>
-
-
-    <a class="number page-number   "
-              href="#" onclick="return false;">
-      <span class="text">2 </span>
-      <span class="right"></span>
-    </a>
-
-
-    <a class="number page-number   "
-              href="#" onclick="return false;">
-      <span class="text">3 </span>
-      <span class="right"></span>
-    </a>
-
-
-    <a class="number page-number   "
-              href="#" onclick="return false;">
-      <span class="text">4 </span>
-      <span class="right"></span>
-    </a>
-
-
-    <a class="number page-number   "
-              href="#" onclick="return false;">
-      <span class="text">5 </span>
-      <span class="right"></span>
-    </a>
-
-
-    <a class="number page-number    right "
-              href="#" onclick="return false;">
-      <span class="text">6 </span>
-      <span class="right"></span>
-    </a>
-
-
-    <a class="number page-number   "
-        style="display:none"        href="#" onclick="return false;">
-      <span class="text">7 </span>
-      <span class="right"></span>
-    </a>
-
-
-    <a class="number page-number   "
-        style="display:none"        href="#" onclick="return false;">
-      <span class="text">8 </span>
-      <span class="right"></span>
-    </a>
-
-
-    <a class="number page-number   "
-        style="display:none"        href="#" onclick="return false;">
-      <span class="text">9 </span>
-      <span class="right"></span>
-    </a>
-
-
-    <a class="number page-number   "
-        style="display:none"        href="#" onclick="return false;">
-      <span class="text">10 </span>
-      <span class="right"></span>
-    </a>
-
-      </div>
-
-
-  <div class="page-number-ellipsis right right-ellipsis">
-    <span class="text">... </span>
-  </div>
-
-  <div class="page-arrows right  overflow " >
-
-    <a class="left-arrow page-number-arrow left rect" href="#" onclick="return false;"></a>
-    <a class="right-arrow page-number-arrow right rect" href="#" onclick="return false;"></a>
-    </div>
-</div>
-
-      <div class="floatclear" style="height: 10px"></div>
-
-      <div class="page-nav  page-num-test "  id="page-numbers-test4" >
-
-
-
-  <div class="page-numbers  ">
-
-    <a class="number page-number   selected left  "
-              href="#" onclick="return false;">
-      <span class="text">1 </span>
-      <span class="right"></span>
-    </a>
-
-
-    <a class="number page-number   "
-              href="#" onclick="return false;">
-      <span class="text">2 </span>
-      <span class="right"></span>
-    </a>
-
-
-    <a class="number page-number   "
-              href="#" onclick="return false;">
-      <span class="text">3 </span>
-      <span class="right"></span>
-    </a>
-
-
-    <a class="number page-number   "
-              href="#" onclick="return false;">
-      <span class="text">4 </span>
-      <span class="right"></span>
-    </a>
-
-
-    <a class="number page-number    right "
-              href="#" onclick="return false;">
-      <span class="text">5 </span>
-      <span class="right"></span>
-    </a>
-
-      </div>
-
-
-  <div class="page-arrows right " >
-
-    <a class="left-arrow page-number-arrow left rect" href="#" onclick="return false;"></a>
-    <a class="right-arrow page-number-arrow right rect" href="#" onclick="return false;"></a>
-    </div>
-</div>
-
-      <div class="floatclear" style="height: 10px"></div>
-     <div class="page-nav"  id="page-numbers-broken" >
-
-
-  <div class="page-numbers">
-
-
-
-
-    <a class="number page-number   selected left
-              "
-              href="#" onclick="return false;">
-      <span class="text">1 </span>
-      <span class="right"></span>
-    </a>
-
-
-
-
-
-    <a class="number page-number
-              "
-              href="#" onclick="return false;">
-      <span class="text">2 </span>
-      <span class="right"></span>
-    </a>
-
-
-
-
-
-    <a class="number page-number
-              "
-              href="#" onclick="return false;">
-      <span class="text">3 </span>
-      <span class="right"></span>
-    </a>
-
-
-
-
-
-    <a class="number page-number
-              "
-              href="#" onclick="return false;">
-      <span class="text">4 </span>
-      <span class="right"></span>
-    </a>
-
-
-
-
-
-    <a class="number page-number
-              "
-              href="#" onclick="return false;">
-      <span class="text">5 </span>
-      <span class="right"></span>
-    </a>
-
-
-
-
-
-    <a class="number page-number
-              "
-        style="display:none"        href="#" onclick="return false;">
-      <span class="text">6 </span>
-      <span class="right"></span>
-    </a>
-
-
-
-
-
-    <a class="number page-number
-              "
-        style="display:none"        href="#" onclick="return false;">
-      <span class="text">7 </span>
-      <span class="right"></span>
-    </a>
-
-
-
-
-
-    <a class="number page-number
-              "
-        style="display:none"        href="#" onclick="return false;">
-      <span class="text">8 </span>
-      <span class="right"></span>
-    </a>
-
-
-
-
-        <span class="page-number-ellipsis right right-ellipsis filler"> ... </span>
-
-    <a class="number page-number
-              "
-              href="#" onclick="return false;">
-      <span class="text">9 </span>
-      <span class="right"></span>
-    </a>
-
-
-
-
-
-    <a class="number page-number    right
-              "
-              href="#" onclick="return false;">
-      <span class="text">10 </span>
-      <span class="right"></span>
-    </a>
-
-
-
-
-  </div>
-
-  <div class="page-arrows" style="margin-left: 10px">
-
-    <a class="left-arrow page-number-arrow left" href="#" onclick="return false;"></a>
-    <a class="right-arrow page-number-arrow right" href="#" onclick="return false;"></a>
-    </div>
-</div>
-
-
-
-
-     <div class="floatclear"></div>
-   </div>
-
-                   </div>
-              </div>
-    </div>
-  </div>
-
-</div>
-
-
-
-    </div>
-    <!-- END #content-left -->
-
-
-    <div id="content-right">
-
-
-
-
-
-      <!--
-      <div id="test-box" class="std-white-box border right " >
-
-
-         <div class="corner-tr"></div>
-  <div class="corner-bl"></div>
-  <div class="box-br">
-    <div class="box-tl">
-      <div class="box-content" >
-                <div class="box-content-padding " >
-
-
-        <h2 id="subscribe-header"> Test Box </h2>
-        <div style="height: 300px;"></div>
-        <div class="floatclear"></div>
-
-
+                          <div class="handle slider-handle">
+                            <div class="handle-text">Balance</div>
+                            <div class="handle-right"></div>
+                          </div>
+                          <div class="slider-track-body"></div>
+                          <div class="slider-track-right"></div>
 
                         </div>
+
+
+                        <div id="console"></div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-    </div>
-  </div>
-
-      </div>
-      -->
 
 
-    </div>
 
-    <div class="floatclear"></div>
+
+              <div class="std-white-box border left">
+                <div class="corner-tr"></div>
+                <div class="corner-bl"></div>
+                <div class="box-br">
+                  <div class="box-tl">
+                    <div class="box-content" >
+                      <div class="box-content-padding">
+
+
+                        <!-- paired slider and text display -->
+                        <div class="slider tall slidertest" id="depositslider" style="width: 400px; float: left;">
+
+                          <div class="handle slider-handle">
+                            <div class="handle-text">Balance</div>
+                            <div class="handle-right"></div>
+                          </div>
+                          <div class="slider-track-body"></div>
+                          <div class="slider-track-right"></div>
+
+                        </div>
+
+                        <div id="depositval" class="textfield-std" style="float: left;width:80px; margin-left: 6px;">
+                          <div class="textfield-left">
+                            <input type="text" class="textfield-input" id="depositval_input"  value="$1,000" autocomplete="off"/>
+                          </div>
+                          <div class="textfield-right"></div>
+
+                        </div>
+
+                        <div class="floatclear"></div>
+
+
+                        <br/>
+
+                        <!-- paired slider and text display -->
+                        <div class="slider tall slidertest" id="depositslider2" style="width: 400px; float: left;">
+
+                          <div class="handle slider-handle">
+                            <div class="handle-text">Balance</div>
+                            <div class="handle-right"></div>
+                          </div>
+                          <div class="slider-track-body"></div>
+                          <div class="slider-track-right"></div>
+
+                        </div>
+
+
+
+                        <div id="depositval" class="textfield-std" style="float: left;width:80px; margin-left: 6px;">
+                          <div class="textfield-left">
+                            <input type="text" class="textfield-input" id="depositval_input2"  value="" autocomplete="off"/>
+                          </div>
+                          <div class="textfield-right"></div>
+
+                        </div>
+
+                        <div class="floatclear"></div>
+
+
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="std-white-box border left">
+                <div class="corner-tr"></div>
+                <div class="corner-bl"></div>
+                <div class="box-br">
+                  <div class="box-tl">
+                    <div class="box-content" >
+                      <div class="box-content-padding">
+
+                        <div class="slider tall slidertest" id="singleslider" style="width: 500px;">
+
+                          <div class="handle slider-handle" >
+                            <div class="handle-text">Balance</div>
+                            <div class="handle-right"></div>
+                          </div>
+
+                          <div class="slider-track-body"></div>
+                          <div class="slider-track-right"></div>
+
+                        </div>
+
+                        <div class="slider tall slidertest" id="thinslider" style="width: 200px;">
+
+                          <div class="handle slider-handle handle-left" style="width: 20px;" >
+                            <div class="handle-text"></div>
+                            <div class="handle-right"></div>
+                          </div>
+
+
+                          <!--
+                              <div class="handle slider-handle handle-right" style="width:20px">
+                                <div class="handle-text">Balance</div>
+                                <div class="handle-right"></div>
+                              </div>
+                              -->
+
+                          <div class="slider-track-body"></div>
+                          <div class="slider-track-right"></div>
+
+                        </div>
+
+                        <!--
+                            <div class="slider  narrow  narrowtrack" id="dualslider" style="width: 400px;">
+
+                              <div class="slider-range-test range-bar" style="height: 18px; top: 8px">
+
+                              </div>
+
+                              <div class="handle slider-handle handle-left" style="width: 10px;" >
+                                <div class="handle-text"></div>
+                                <div class="handle-right"></div>
+                              </div>
+
+                              <div class="handle slider-handle handle-right" style="width:10px; left: 100px;">
+                                <div class="handle-text"></div>
+                                <div class="handle-right"></div>
+                              </div>
+
+
+                              <div class="slider-track-body"></div>
+                              <div class="slider-track-right"></div>
+
+                            </div>
+
+                            -->
+
+                        <div class="slider-thin" id="rangeslider" style="width: 400px; margin-top: 20px;">
+
+                          <div class="slider-range range-bar">
+                          </div>
+
+                          <div class="handle-left slider-thin-handle handle tall">
+                          </div>
+
+                          <div class="handle-right slider-thin-handle handle tall" style="left: 100px;">
+                          </div>
+
+
+                          <div class="slider-track-body"></div>
+                          <div class="slider-track-right"></div>
+
+                        </div>
+
+
+
+                        <div class="slider-thin" id="rangeslider2" style="width: 400px; margin-top: 20px;">
+                          <div class="slider-range range-bar">
+                          </div>
+
+                          <div class="handle-left slider-thin-handle">
+                          </div>
+
+                          <div class="handle-right slider-thin-handle" style="left: 100px;">
+                          </div>
+
+
+                          <div class="slider-track-body"></div>
+                          <div class="slider-track-right"></div>
+                        </div>
+
+
+                        <div class="slider-thin" id="rangeslider3" style="width: 400px; margin-top: 20px;">
+                          <div class="slider-range range-bar">
+                          </div>
+
+                          <div class="handle-left slider-thin-handle pointed">
+                          </div>
+
+                          <div class="handle-right slider-thin-handle pointed" style="left: 100px;">
+                          </div>
+
+
+                          <div class="slider-track-body"></div>
+                          <div class="slider-track-right"></div>
+                        </div>
+
+                        <!-- Fill sliders -->
+
+                        <div class="slider track16 handle32-light fillslider" id="fillslider1" style="width: 500px; margin-top: 10px;">
+
+                          <div class="slider-fill">
+                          </div>
+
+                          <div class="handle slider-handle" style="width: 80px">
+                            <div class="handle-text">Deposit</div>
+                            <div class="handle-right"></div>
+                          </div>
+
+                          <div class="slider-track-body"></div>
+                          <div class="slider-track-right"></div>
+
+                        </div>
+
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="std-white-box border left">
+                <div class="corner-tr"></div>
+                <div class="corner-bl"></div>
+                <div class="box-br">
+                  <div class="box-tl">
+                    <div class="box-content" >
+                      <div class="box-content-padding " >
+
+
+                        <div>
+
+                          <div class="page-nav  page-num-test "  id="page-numbers-test" >
+
+
+                            <a class="left-arrow page-number-arrow left  overflow " href="#" onclick="return false;"></a>
+
+
+                            <div class="page-number-ellipsis left left-ellipsis" >
+                              <span class="text" style="display:none">... </span>
+                            </div>
+
+                            <div class="page-numbers   overflow ">
+
+                              <a class="number page-number   selected left  "
+                                 href="#" onclick="return false;">
+                                <span class="text">1 </span>
+                                <span class="right"></span>
+                              </a>
+
+
+                              <a class="number page-number   "
+                                 href="#" onclick="return false;">
+                                <span class="text">2 </span>
+                                <span class="right"></span>
+                              </a>
+
+
+                              <a class="number page-number   "
+                                 href="#" onclick="return false;">
+                                <span class="text">3 </span>
+                                <span class="right"></span>
+                              </a>
+
+
+                              <a class="number page-number   "
+                                 href="#" onclick="return false;">
+                                <span class="text">4 </span>
+                                <span class="right"></span>
+                              </a>
+
+
+                              <a class="number page-number   "
+                                 href="#" onclick="return false;">
+                                <span class="text">5 </span>
+                                <span class="right"></span>
+                              </a>
+
+
+                              <a class="number page-number    right "
+                                 href="#" onclick="return false;">
+                                <span class="text">6 </span>
+                                <span class="right"></span>
+                              </a>
+
+
+                              <a class="number page-number   "
+                                 style="display:none"        href="#" onclick="return false;">
+                                <span class="text">7 </span>
+                                <span class="right"></span>
+                              </a>
+
+
+                              <a class="number page-number   "
+                                 style="display:none"        href="#" onclick="return false;">
+                                <span class="text">8 </span>
+                                <span class="right"></span>
+                              </a>
+
+
+                              <a class="number page-number   "
+                                 style="display:none"        href="#" onclick="return false;">
+                                <span class="text">9 </span>
+                                <span class="right"></span>
+                              </a>
+
+
+                              <a class="number page-number   "
+                                 style="display:none"        href="#" onclick="return false;">
+                                <span class="text">10 </span>
+                                <span class="right"></span>
+                              </a>
+
+                            </div>
+
+
+                            <div class="page-number-ellipsis right right-ellipsis">
+                              <span class="text">... </span>
+                            </div>
+
+
+                            <a class="right-arrow page-number-arrow right  overflow " href="#" onclick="return false;"></a>
+
+                          </div>
+
+                          <div class="floatclear" style="height: 10px"></div>
+
+                          <div class="page-nav  page-num-test "  id="page-numbers-test2" >
+
+
+                            <a class="left-arrow page-number-arrow left " href="#" onclick="return false;"></a>
+
+
+                            <div class="page-numbers  ">
+
+                              <a class="number page-number   selected left  "
+                                 href="#" onclick="return false;">
+                                <span class="text">1 </span>
+                                <span class="right"></span>
+                              </a>
+
+
+                              <a class="number page-number   "
+                                 href="#" onclick="return false;">
+                                <span class="text">2 </span>
+                                <span class="right"></span>
+                              </a>
+
+
+                              <a class="number page-number   "
+                                 href="#" onclick="return false;">
+                                <span class="text">3 </span>
+                                <span class="right"></span>
+                              </a>
+
+
+                              <a class="number page-number   "
+                                 href="#" onclick="return false;">
+                                <span class="text">4 </span>
+                                <span class="right"></span>
+                              </a>
+
+
+                              <a class="number page-number    right "
+                                 href="#" onclick="return false;">
+                                <span class="text">5 </span>
+                                <span class="right"></span>
+                              </a>
+
+                            </div>
+
+
+                            <a class="right-arrow page-number-arrow right " href="#" onclick="return false;"></a>
+
+                          </div>
+
+                          <div class="floatclear" style="height: 10px"></div>
+
+                          <div class="page-nav  page-num-test "  id="page-numbers-test3" >
+
+
+
+                            <div class="page-numbers   overflow ">
+
+                              <a class="number page-number   selected left  "
+                                 href="#" onclick="return false;">
+                                <span class="text">1 </span>
+                                <span class="right"></span>
+                              </a>
+
+
+                              <a class="number page-number   "
+                                 href="#" onclick="return false;">
+                                <span class="text">2 </span>
+                                <span class="right"></span>
+                              </a>
+
+
+                              <a class="number page-number   "
+                                 href="#" onclick="return false;">
+                                <span class="text">3 </span>
+                                <span class="right"></span>
+                              </a>
+
+
+                              <a class="number page-number   "
+                                 href="#" onclick="return false;">
+                                <span class="text">4 </span>
+                                <span class="right"></span>
+                              </a>
+
+
+                              <a class="number page-number   "
+                                 href="#" onclick="return false;">
+                                <span class="text">5 </span>
+                                <span class="right"></span>
+                              </a>
+
+
+                              <a class="number page-number    right "
+                                 href="#" onclick="return false;">
+                                <span class="text">6 </span>
+                                <span class="right"></span>
+                              </a>
+
+
+                              <a class="number page-number   "
+                                 style="display:none"        href="#" onclick="return false;">
+                                <span class="text">7 </span>
+                                <span class="right"></span>
+                              </a>
+
+
+                              <a class="number page-number   "
+                                 style="display:none"        href="#" onclick="return false;">
+                                <span class="text">8 </span>
+                                <span class="right"></span>
+                              </a>
+
+
+                              <a class="number page-number   "
+                                 style="display:none"        href="#" onclick="return false;">
+                                <span class="text">9 </span>
+                                <span class="right"></span>
+                              </a>
+
+
+                              <a class="number page-number   "
+                                 style="display:none"        href="#" onclick="return false;">
+                                <span class="text">10 </span>
+                                <span class="right"></span>
+                              </a>
+
+                            </div>
+
+
+                            <div class="page-number-ellipsis right right-ellipsis">
+                              <span class="text">... </span>
+                            </div>
+
+                            <div class="page-arrows right  overflow " >
+
+                              <a class="left-arrow page-number-arrow left rect" href="#" onclick="return false;"></a>
+                              <a class="right-arrow page-number-arrow right rect" href="#" onclick="return false;"></a>
+                            </div>
+                          </div>
+
+                          <div class="floatclear" style="height: 10px"></div>
+
+                          <div class="page-nav  page-num-test "  id="page-numbers-test4" >
+
+
+
+                            <div class="page-numbers  ">
+
+                              <a class="number page-number   selected left  "
+                                 href="#" onclick="return false;">
+                                <span class="text">1 </span>
+                                <span class="right"></span>
+                              </a>
+
+
+                              <a class="number page-number   "
+                                 href="#" onclick="return false;">
+                                <span class="text">2 </span>
+                                <span class="right"></span>
+                              </a>
+
+
+                              <a class="number page-number   "
+                                 href="#" onclick="return false;">
+                                <span class="text">3 </span>
+                                <span class="right"></span>
+                              </a>
+
+
+                              <a class="number page-number   "
+                                 href="#" onclick="return false;">
+                                <span class="text">4 </span>
+                                <span class="right"></span>
+                              </a>
+
+
+                              <a class="number page-number    right "
+                                 href="#" onclick="return false;">
+                                <span class="text">5 </span>
+                                <span class="right"></span>
+                              </a>
+
+                            </div>
+
+
+                            <div class="page-arrows right " >
+
+                              <a class="left-arrow page-number-arrow left rect" href="#" onclick="return false;"></a>
+                              <a class="right-arrow page-number-arrow right rect" href="#" onclick="return false;"></a>
+                            </div>
+                          </div>
+
+                          <div class="floatclear" style="height: 10px"></div>
+                          <div class="page-nav"  id="page-numbers-broken" >
+
+
+                            <div class="page-numbers">
+
+
+
+
+                              <a class="number page-number   selected left
+                                        "
+                                 href="#" onclick="return false;">
+                                <span class="text">1 </span>
+                                <span class="right"></span>
+                              </a>
+
+
+
+
+
+                              <a class="number page-number
+                                        "
+                                 href="#" onclick="return false;">
+                                <span class="text">2 </span>
+                                <span class="right"></span>
+                              </a>
+
+
+
+
+
+                              <a class="number page-number
+                                        "
+                                 href="#" onclick="return false;">
+                                <span class="text">3 </span>
+                                <span class="right"></span>
+                              </a>
+
+
+
+
+
+                              <a class="number page-number
+                                        "
+                                 href="#" onclick="return false;">
+                                <span class="text">4 </span>
+                                <span class="right"></span>
+                              </a>
+
+
+
+
+
+                              <a class="number page-number
+                                        "
+                                 href="#" onclick="return false;">
+                                <span class="text">5 </span>
+                                <span class="right"></span>
+                              </a>
+
+
+
+
+
+                              <a class="number page-number
+                                        "
+                                 style="display:none"        href="#" onclick="return false;">
+                                <span class="text">6 </span>
+                                <span class="right"></span>
+                              </a>
+
+
+
+
+
+                              <a class="number page-number
+                                        "
+                                 style="display:none"        href="#" onclick="return false;">
+                                <span class="text">7 </span>
+                                <span class="right"></span>
+                              </a>
+
+
+
+
+
+                              <a class="number page-number
+                                        "
+                                 style="display:none"        href="#" onclick="return false;">
+                                <span class="text">8 </span>
+                                <span class="right"></span>
+                              </a>
+
+
+
+
+                              <span class="page-number-ellipsis right right-ellipsis filler"> ... </span>
+
+                              <a class="number page-number
+                                        "
+                                 href="#" onclick="return false;">
+                                <span class="text">9 </span>
+                                <span class="right"></span>
+                              </a>
+
+
+
+
+
+                              <a class="number page-number    right
+                                        "
+                                 href="#" onclick="return false;">
+                                <span class="text">10 </span>
+                                <span class="right"></span>
+                              </a>
+
+
+
+
+                            </div>
+
+                            <div class="page-arrows" style="margin-left: 10px">
+
+                              <a class="left-arrow page-number-arrow left" href="#" onclick="return false;"></a>
+                              <a class="right-arrow page-number-arrow right" href="#" onclick="return false;"></a>
+                            </div>
+                          </div>
+
+
+
+
+                          <div class="floatclear"></div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+
+
+            </div>
+            <!-- END #content-left -->
+
+
+            <div id="content-right">
+
+
+
+            </div>
+
+            <div class="floatclear"></div>
 
           </div>
 
@@ -1167,104 +832,16 @@
       </div>
     </div>
 
-    <div id="footer-wrap">
-
-      <div id="footer">
-
-  <div id="footer-content">
-
-    <!--
-        <div class="footer-column">
-          <h3> Top Banks </h3>
-
-          <ul>
-            <li><a href="/banks/chase-bank/">Chase</a></li>
-            <li><a href="/banks/bank-of-america/">Bank of America</a></li>
-            <li><a href="/banks/wells-fargo/">Wells Fargo</a></li>
-            <li><a href="/banks/citibank/">Citibank</a></li>
-            <li><a href="/banks/ing-direct/">ING Direct</a></li>
-          </ul>
-
-        </div>
-        -->
 
 
 
 
-
-    <div class="footer-column">
-
-      <h3> News and Articles</h3>
-
-      <ul>
-
-        <li><a href="/news/">News Home</a></li>
-        <li><a href="/news/bank-deals/">Bank Deals</a></li>
-        <li><a href="/news/banking-news/">Banking News</a></li>
-        <li><a href="/news/cd-rates/">CD News</a></li>
-        <li><a href="/news/savings/">Savings News</a></li>
-        <li><a href="/personal-finance/">Personal Finance</a></li>
-      </ul>
-
-    </div>
-
-
-    <div class="footer-column">
-      <h3> Links</h3>
-
-      <ul>
-        <li><a href="/cd-rates/">CD Rates</a></li>
-        <li><a href="/savings/"> Savings Rates</a></li>
-        <li><a href="/checking/"> Checking Rates</a> </li>
-        <li><a href="/banks/"> Banks</a> </li>
-      </ul>
-
-    </div>
-
-
-
-    <div class="footer-column">
-
-      <h3> Rate Searches </h3>
-
-
-            <ul>
-        <li><a href="/cd-rates/6-month/online/">6 month Online CD Rates</a></li>
-        <li><a href="/cd-rates/1-year/online/">1 year Online CD Rates</a></li>
-        <li><a href="/savings/online/">Online Savings Rates</a></li>
-        <li><a href="/money-market/online/">Online Money Market Rates</a></li>
-        <li><a href="/interest-checking/online/">Online Interest Checking Rates</a></li>
-      </ul>
-
-
-    </div>
-
-
-
-
-    <div class="footer-column">
-
-      <h3> About Us</h3>
-
-      <ul>
-
-        <li><a href="/about/">About</a></li>
-        <li><a href="/contact/">Contact Us</a></li>
-        <li><a href="/privacy/">Privacy</a></li>
-        <li><a href="/sitemap/">Sitemap</a></li>
-      </ul>
-
-    </div>
-
-
-  </div>
-  <!-- footer content -->
 
 </div>
 <!-- END #footer -->
-    </div>
+</div>
 
 
-  </body>
+</body>
 
 </html>
