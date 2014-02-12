@@ -1,0 +1,206 @@
+div.buttontest a.button-std {
+     margin-bottom: 10px;
+}
+
+.containfloat {
+    overflow: hidden;
+}
+
+a.button1 {
+    position: relative;
+    padding-right: 15px;
+    height: 38px;
+    line-height: 38px;
+    display: block;
+    width: 80px;
+}
+
+a.button1 span.text {
+    display: block;
+    height: 100%;
+    padding-left: 15px;
+    background: url("../images/buttons/button_green_test.png") no-repeat -16px -16px transparent;
+    text-align: center;
+}
+
+a.button1 span.right {
+    position: absolute;
+    width: 15px;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    background: url("../images/buttons/button_green_test.png") no-repeat -154px -16px transparent;
+}
+
+a.button1 {
+    position: relative;
+    padding-right: 15px;
+    height: 38px;
+    line-height: 38px;
+    display: block;
+    width: 80px;
+}
+
+a.button1 span.text {
+    display: block;
+    height: 100%;
+    padding-left: 15px;
+    background: url("../images/buttons/button_green_test.png") no-repeat -16px -16px transparent;
+    text-align: center;
+}
+
+a.button1 span.right {
+    position: absolute;
+    width: 15px;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    background: url("../images/buttons/button_green_test.png") no-repeat -154px -16px transparent;
+}
+
+
+
+a.button-onespan {
+ 
+  
+    position: relative;
+    margin-right: 15px;
+    height: 38px;
+    line-height: 38px;
+    display: block;
+    padding-left: 15px;
+    width: 65px;
+
+    text-align: center;
+    background: url("../images/buttons/button_green_test.png") no-repeat -16px -16px transparent;
+}
+a.button-onespan span.text {
+    xdisplay: block;
+    height: 100%;
+    xpadding-right: 15px;
+    position: absolute;
+    right: -15px;
+    width: 15px;
+    
+
+    background: url("../images/buttons/button_green_test.png") no-repeat -154px -16px transparent;
+    text-align: center;
+}
+
+
+/*
+a.button-green:hover span.button-text,
+a.button-green:hover span.button-right {
+ 
+    background-image: url("../images/buttons/button-green-hover.png");
+
+}
+*/
+
+#dropdowntest1 {
+    width: 140px;
+}
+
+#dropdowntest2 {
+    width: 1850px;
+}
+
+#animatebox {
+    height: 300px; 
+    width: 150px; 
+    background-color:  #ddd; 
+    position: relative;
+}
+
+#animatebox .handle {
+    height: 40px; 
+    width: 148px;
+    background-color: #fafafa; 
+    border: 1px solid #ccc;
+    position: absolute; 
+    top: 0;
+    cursor: pointer;
+}
+
+#animatebox .item {
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+     cursor: pointer;
+}
+
+/*
+.horiz-control-exp {
+    display: block;
+    height: 42px;
+    font-size: 15px;
+    line-height: 43px;
+    zbackground-color: #ccc;
+    zwidth: 100px;
+    text-align: center;
+    
+    position: relative;
+    zcolor: white;
+   
+    line-height: 41px;
+    padding-right: 22px;
+    float: left;
+    margin-right: -1px;
+}
+
+.horiz-control-exp .text {
+    display: block;
+    height: 100%;
+    padding-left: 22px;
+    background: url(../images/buttons/horiz-control-unselected-rect.png) no-repeat left top transparent;
+}
+
+.horiz-control-exp .right {
+    position: absolute;
+    width: 22px;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background: url(../images/buttons/horiz-control-unselected-rect.png) no-repeat right top transparent;
+} 
+
+.horiz-control-exp.left .text {
+    background: url(../images/buttons/horiz-control-unselected-rounded.png) no-repeat left top transparent;
+}
+
+.horiz-control-exp.right .right {
+    background: url(../images/buttons/horiz-control-unselected-rounded.png) no-repeat right top transparent;
+}
+
+.horiz-control-exp:hover {
+    z-index: 10;
+    color: white;
+}
+
+.horiz-control-exp:hover .text,
+.horiz-control-exp:hover .right {
+    background-image: url(../images/buttons/horiz-control-selected-rect.png)
+}
+
+.horiz-control-exp.left:hover .text,
+.horiz-control-exp.right:hover .right {
+    background-image: url(../images/buttons/horiz-control-selected-rounded.png)
+}
+*/
+
+.checkbox-alt-image {
+    display: inline-block;
+    width: 21px;
+    height: 22px;
+    background: transparent url(../images/forms/checkbox-std.png) no-repeat left top;
+    background: transparent url(../images/forms/form-sprite.png) no-repeat 0px -490px;
+    zbackground: transparent url(../images/forms/form-sprite.png) no-repeat 0px -479px;
+    vertical-align: middle;
+}
+
+.checkbox-alt > .checkbox-label {
+    xbackground-color: #ddd;
+    margin-top: 5px;
+    vertical-align: middle;
+    font-size: 13px;
+    xheight: 15px;
+}

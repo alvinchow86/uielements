@@ -1,0 +1,724 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="en-us" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>UI Test</title>
+
+    <link href="static/css/toplayout.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="static/css/common_ui.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="static/css/findbankrates.css" rel="stylesheet" type="text/css" media="screen" />
+
+    <script type="text/javascript" src="static/js/jquery-1.9.1.min.js"></script>
+
+
+    <script type="text/javascript" src="static/js/classy.js"></script>
+
+
+    <script type="text/javascript" src="static/js/init.js"></script>
+
+    <script type="text/javascript" src="static/js/jquery.outside-events.js"></script>
+
+    <script type="text/javascript" src="static/js/jquery.dropdown.js"></script>
+    <script type="text/javascript" src="static/js/jquery.forms.js"></script>
+
+    <script type="text/javascript" src="static/js/slidercontrol.js"></script>
+    <script type="text/javascript" src="static/js/sliderinput.js"></script>
+    <script type="text/javascript" src="static/js/pagenumbers.js"></script>
+
+    <link href="static/css/uitest.css" rel="stylesheet" type="text/css" media="screen" />
+
+    <style type="text/css">
+
+    </style>
+
+    <!--<script type="text/javascript" src="static/js/uitest.js"></script>-->
+
+
+    <script type="text/javascript">
+
+      var depositslider;
+
+      $(function() {
+
+      $("#dropdowntest").dropdown('setCallback', function(val) {
+      console.log('got val:' + val);
+
+      });
+      // $("#dropdowntest").dropdown('setSpeed', 500,500);
+
+      $(".slidertest").each(function() {
+      var slider = new SliderControl(this, {
+      slide: false,
+      speed: 20
+      });
+      });
+
+      });
+
+    </script>
+
+  </head>
+
+  <body>
+
+    <div id="page-wrap">
+      <div id="main-wrap">
+        <div id="main">
+
+          <div id="content-main">
+
+            <div id="content-left">
+
+              <div class="std-white-box border left buttontest">
+                <div class="corner-tr"></div>
+                <div class="corner-bl"></div>
+                <div class="box-br">
+                  <div class="box-tl">
+                    <div class="box-content" >
+                      <div class="box-content-padding">
+
+
+
+                        <a href="#" class="button-std button-green search">
+                          <span class="button-text">Search</span>
+                          <span class="button-right"></span>
+                        </a>
+
+                        <a href="#" class="button-std button-green alt search">
+                          <span class="button-text">Search</span>
+                          <span class="button-right"></span>
+                        </a>
+
+
+                        <a href="#" class="button-std button-darkgrey">
+                          <span class="button-text">Search</span>
+                          <span class="button-right"></span>
+                        </a>
+
+                        <a href="#" class="button-std button-darkgrey">
+                          <span class="button-text">Search</span>
+                          <span class="button-right"></span>
+                        </a>
+
+                        <a href="#" class="button-std button-lightgrey">
+                          <span class="button-text">Submit</span>
+                          <span class="button-right"></span>
+                        </a>
+
+
+                        <a href="#" class="button-std button-red">
+                          <span class="button-text">Submit</span>
+                          <span class="button-right"></span>
+                        </a>
+
+                        <a href="#" class="button-std button-orange">
+                          <span class="button-text">Submit</span>
+                          <span class="button-right"></span>
+                        </a>
+
+                        <a href="#" class="button-std button-grey">
+                          <span class="button-text">Submit</span>
+                          <span class="button-right"></span>
+                        </a>
+
+
+                        <div class="horiz-control" style="margin-bottom: 10px">
+
+                          <a href="#" onclick="return false;" class="horiz-control-link left " >
+                            <span class="text">Python</span>
+                            <span class="right"></span>
+
+                            <span class="horiz-control-triangle"></span>
+                          </a>
+
+                          <a href="#" onclick="return false;" class="horiz-control-link center  selected" >
+                            <span class="text">Ruby</span>
+                            <span class="right"></span>
+                            <span class="horiz-control-triangle"></span>
+                          </a>
+
+                          <a href="#" onclick="return false;" class="horiz-control-link right  ">
+                            <span class="text">Java</span>
+                            <span class="right"></span>
+                            <span class="horiz-control-triangle"></span>
+                          </a>
+
+                        </div>
+
+
+                        <ul class="horiz-control">
+                          <li class="horiz-control-item">
+                            <a href="#" onclick="return false;" class="horiz-control-link left " >
+                              <span class="text">Python</span>
+                              <span class="right"></span>
+
+                              <span class="horiz-control-triangle"></span>
+                            </a>
+                          </li>
+                          <li class="horiz-control-item">
+                            <a href="#" onclick="return false;" class="horiz-control-link center  selected" >
+                              <span class="text">Ruby</span>
+                              <span class="right"></span>
+                              <span class="horiz-control-triangle"></span>
+                            </a>
+                          </li>
+                          <li class="horiz-control-item">
+                            <a href="#" onclick="return false;" class="horiz-control-link right  ">
+                              <span class="text">Java</span>
+                              <span class="right"></span>
+                              <span class="horiz-control-triangle"></span>
+                            </a>
+                          </li>
+                        </ul>
+                        <p class="spacer">&nbsp;</p>
+
+
+                        <ul class="horiz-control smalltext">
+                          <li class="horiz-control-item">
+                            <a href="#" onclick="return false;" class="horiz-control-link left " >
+                              <span class="text">Python</span>
+                              <span class="right"></span>
+
+                              <span class="horiz-control-triangle"></span>
+                            </a>
+                          </li>
+                          <li class="horiz-control-item">
+                            <a href="#" onclick="return false;" class="horiz-control-link center  selected" >
+                              <span class="text">Ruby</span>
+                              <span class="right"></span>
+                              <span class="horiz-control-triangle"></span>
+                            </a>
+                          </li>
+                          <li class="horiz-control-item">
+                            <a href="#" onclick="return false;" class="horiz-control-link right ">
+                              <span class="text">Java</span>
+                              <span class="right"></span>
+                              <span class="horiz-control-triangle"></span>
+                            </a>
+                          </li>
+                        </ul>
+                        <p class="spacer">&nbsp;</p>
+
+
+
+                        <div class="textfield-std has-button lightshadow" style="width:220px; margin-top: 12px">
+                          <div class="textfield-left">
+                            <input type="text" class="textfield-input" />
+                          </div>
+                          <div class="textfield-right"></div>
+
+                          <a href="#" class="textfield-button darkgrey" onclick="return false;">
+                            <span class="text"> Go</span>
+                            <span class="right"></span>
+                          </a>
+
+                        </div>
+
+                        <div class="textfield-std has-button lightshadow" style="width:220px; margin-top: 12px">
+                          <div class="textfield-left">
+                            <input type="text" class="textfield-input" />
+                          </div>
+                          <div class="textfield-right"></div>
+
+                          <a href="#" class="textfield-button lightgrey" onclick="return false;">
+                            <span class="text"> Go</span>
+                            <span class="right"></span>
+                          </a>
+
+                        </div>
+
+                        <div class="textfield-std has-button lightshadow" style="width:220px; margin-top: 12px">
+                          <div class="textfield-left">
+                            <input type="text" class="textfield-input" />
+                          </div>
+                          <div class="textfield-right"></div>
+
+                          <a href="#" class="textfield-button green" onclick="return false;">
+                            <span class="text"> Go</span>
+                            <span class="right"></span>
+                          </a>
+
+                        </div>
+
+                        <div class="textfield-std blue" style="width:220px; margin-top: 12px">
+                          <div class="textfield-left">
+                            <input type="text" class="textfield-input" />
+                          </div>
+                          <div class="textfield-right"></div>
+                        </div>
+
+
+                        <div class="textfield-std white blue" style="width:220px; margin-top: 12px">
+                          <div class="textfield-left">
+                            <input type="text" class="textfield-input" />
+                          </div>
+                          <div class="textfield-right"></div>
+                        </div>
+
+                        <div class="textfield-std disabled" style="width:220px; margin-top: 12px">
+                          <div class="textfield-left">
+                            <input type="text" class="textfield-input" disabled/>
+                          </div>
+                          <div class="textfield-right"></div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="std-white-box border left formstest">
+                <div class="corner-tr"></div>
+                <div class="corner-bl"></div>
+                <div class="box-br">
+                  <div class="box-tl">
+                    <div class="box-content" >
+                      <div class="box-content-padding">
+
+                        <div class="jsdropdown" id="dropdowntest" tabindex="0">
+                          <div class="jsdropdown-main">
+
+                            <span class="jsdropdown-text">Python</span>
+                            <span class="jsdropdown-right"></span>
+
+                          </div>
+                          <div class="jsdropdown-list">
+                            <div class="jsdropdown-list-inner">
+                              <div class="elem" title="cd"> C++ </div>
+                              <div class="elem" title="jcd"> Javascript</div>
+                              <div class="elem" title="sav"> Ruby </div>
+                              <div class="elem" title="mma"> PHP </div>
+                              <div class="elem" title="chk"> Java </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div style="height: 15px"></div>
+
+                        <div class="jsdropdown mini" id="dropdowntest-mini" tabindex="1">
+                          <div class="jsdropdown-main mini">
+
+                            <span class="jsdropdown-text">Python</span>
+                            <span class="jsdropdown-right"></span>
+
+                          </div>
+                          <div class="jsdropdown-list mini">
+                            <div class="jsdropdown-list-inner">
+                              <div class="elem"> C++ </div>
+                              <div class="elem"> Javascript</div>
+                              <div class="elem"> Ruby </div>
+                              <div class="elem"> PHP </div>
+                              <div class="elem"> Java </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <p class="spacer"> &nbsp; </p>
+                        <div class="jsdropdown mini" id="dropdowntest-mini" tabindex="1">
+                          <div class="jsdropdown-main mini">
+
+                            <span class="jsdropdown-text">Python</span>
+                            <span class="jsdropdown-right"></span>
+
+                          </div>
+                          <div class="jsdropdown-list mini">
+                            <div class="jsdropdown-list-inner">
+                              <div class="elem"> C++ </div>
+                              <div class="elem"> Javascript</div>
+                              <div class="elem"> Ruby </div>
+                              <div class="elem"> PHP </div>
+                              <div class="elem"> Java </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <p class="spacer"> &nbsp; </p>
+                        <div class="jsdropdown mini" id="dropdowntest-mini" tabindex="1">
+                          <div class="jsdropdown-main mini">
+
+                            <span class="jsdropdown-text">Python</span>
+                            <span class="jsdropdown-right"></span>
+
+                          </div>
+                          <div class="jsdropdown-list mini">
+                            <div class="jsdropdown-list-inner">
+                              <div class="elem"> C++ </div>
+                              <div class="elem"> Javascript</div>
+                              <div class="elem"> Ruby </div>
+                              <div class="elem"> PHP </div>
+                              <div class="elem"> Java </div>
+                            </div>
+                          </div>
+                        </div>
+                        <p class="spacer"> &nbsp; </p>
+
+                        <div class="jsdropdown mini" id="dropdowntest-mini" tabindex="1">
+                          <div class="jsdropdown-main mini">
+
+                            <span class="jsdropdown-text">Python</span>
+                            <span class="jsdropdown-right"></span>
+
+                          </div>
+                          <div class="jsdropdown-list mini">
+                            <div class="jsdropdown-list-inner">
+                              <div class="elem"> C++ </div>
+                              <div class="elem"> Javascript</div>
+                              <div class="elem"> Ruby </div>
+                              <div class="elem"> PHP </div>
+                              <div class="elem"> Java </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <!--This caused problems
+                            <div class="checkbox-blah" style="margin: 10px 0px">
+                              <input id="mycheckbox" type="checkbox"/>
+                              <label for="mycheckbox"> Click me!</label>
+                            </div>
+                            -->
+
+                        <div class="checkbox-std left" id="checkbox1">
+                          <div class="checkbox-image"></div>
+                          <label class="checkbox-label"> Click me! </label>
+                          <input type="checkbox" />
+                        </div>
+
+                        <div class="checkbox-std left" style="float: left">
+                          <div class="checkbox-image"></div>
+                          <label class="checkbox-label"> Haskell </label>
+                          <input type="checkbox" id="checkbox1"/>
+                        </div>
+                        <div class="checkbox-std left" style="float: left">
+                          <div class="checkbox-image"></div>
+                          <label class="checkbox-label"> Closure </label>
+                          <input type="checkbox" />
+                        </div>
+
+                        <div class="checkbox-std right" style="float: left">
+                          <label class="checkbox-label"> Closure </label>
+                          <input type="checkbox" />
+                          <div class="checkbox-image"></div>
+                        </div>
+
+                        <div class="floatclear"></div>
+
+
+                        <div class="checkbox-std left">
+                          <div class="checkbox-image"></div>
+                          <label class="checkbox-label"> Font 13px (default) </label>
+                          <input type="checkbox" />
+                        </div>
+
+                        <div class="checkbox-std left font14">
+                          <div class="checkbox-image"></div>
+                          <label class="checkbox-label" style="font-size: 14px;"> Font 14px </label>
+                          <input type="checkbox" />
+                        </div>
+
+                        <div class="checkbox-std left font12">
+                          <div class="checkbox-image"></div>
+                          <label class="checkbox-label"> Font 12px </label>
+                          <input type="checkbox" />
+                        </div>
+
+
+
+                        <div class="radio-std left" id="radio1">
+                          <div class="radio-image"></div>
+                          <label class="radio-label"> Closure </label>
+                          <input type="radio" name="radiogroup1" id="radio-input-1" value="local" checked/>
+                        </div>
+
+                        <div class="radio-std left" id="radio2">
+                          <div class="radio-image"></div>
+                          <label class="radio-label"> Haskell </label>
+                          <input type="radio" name="radiogroup1" id="radio-input-2" value="online"/>
+                        </div>
+
+
+                        <div class="radio-std left" id="radio3">
+                          <div class="radio-image"></div>
+                          <label class="radio-label"> C++ </label>
+                          <input type="radio" name="radiogroup2" value="cd" checked/>
+                        </div>
+
+                        <div class="radio-std left" id="radio4">
+                          <div class="radio-image"></div>
+                          <label class="radio-label"> Ruby</label>
+                          <input type="radio" name="radiogroup2"  value="savings"/>
+                        </div>
+
+                        <div class="radio-std left" id="radio5">
+                          <div class="radio-image"></div>
+                          <label class="radio-label"> Java</label>
+                          <input type="radio" name="radiogroup2" value="checking"/>
+                        </div>
+
+                        <div class="radio-std left" id="radio3">
+                          <div class="radio-image"></div>
+                          <label class="radio-label"> Font 13 </label>
+                          <input type="radio" name="radiogroup3" value="cd" checked/>
+                        </div>
+
+                        <div class="radio-std left font14" id="radio4">
+                          <div class="radio-image"></div>
+                          <label class="radio-label"> Font 14</label>
+                          <input type="radio" name="radiogroup3"  value="savings"/>
+                        </div>
+
+                        <div class="radio-std left font12" id="radio5">
+                          <div class="radio-image"></div>
+                          <label class="radio-label"> Font 12</label>
+                          <input type="radio" name="radiogroup3" value="checking"/>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="std-white-box border left">
+                <div class="corner-tr"></div>
+                <div class="corner-bl"></div>
+                <div class="box-br">
+                  <div class="box-tl">
+                    <div class="box-content" >
+                      <div class="box-content-padding">
+
+                        <div class="jsdropdown" id="dropdowntest1" style="float: left;  width: 150px;">
+                          <div class="jsdropdown-main">
+
+                            <span class="jsdropdown-text">C++ </span>
+                            <span class="jsdropdown-right"></span>
+
+                          </div>
+                          <div class="jsdropdown-list">
+                            <div class="jsdropdown-list-inner">
+                              <div title="cd" class="elem selected highlighted"> C++ </div>
+                              <div title="jumbo-cd" class="elem"> Javascript</div>
+                              <div title="savings" class="elem"> Ruby </div>
+                              <div title="money-market" class="elem"> PHP </div>
+                              <div title="checking" class="elem"> Java </div>
+                            </div>
+                          </div>
+
+                          <input type="hidden" class="jsdropdown-value" value="cd"/>
+                        </div>
+
+                        <div class="jsdropdown" id="dropdowntest2" style="float: left; margin-left: 8px; width: 120px;">
+                          <div class="jsdropdown-main">
+
+                            <span class="jsdropdown-text">1 year</span>
+                            <span class="jsdropdown-right"></span>
+
+                          </div>
+                          <div class="jsdropdown-list">
+                            <div class="jsdropdown-list-inner">
+                              <div class="elem"> 3 months </div>
+                              <div class="elem"> 6 months </div>
+                              <div class="elem"> 9 months </div>
+                              <div class="elem selected highlighted"> 1 year </div>
+                              <div class="elem"> 2 years</div>
+                              <div class="elem"> 3 years </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="textfield-std" style="float: left; width:180px; margin-left: 6px;">
+                          <div class="textfield-left">
+                            <!--<div class="textfield-wrapper">-->
+                            <input type="text" class="textfield-input defaultText" />
+                            <!--</div>-->
+                          </div>
+                          <div class="textfield-right"></div>
+
+                        </div>
+
+                        <a href="#" class="button-std button-green search" style="float: left; margin-left: 8px;" onclick="return false;">
+                          <span class="button-text">Search</span>
+                          <span class="button-right"></span>
+                        </a>
+
+                        <div class="floatclear"></div>
+
+                        <!--<input type="text"/ style="height:30px; line-height: 30px;">-->
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="std-white-box border left">
+                <div class="corner-tr"></div>
+                <div class="corner-bl"></div>
+                <div class="box-br">
+                  <div class="box-tl">
+                    <div class="box-content" >
+                      <div class="box-content-padding">
+
+                        <div class="slider tall slidertest" id="slidertest1" style="width: 500px;">
+
+                          <div class="handle slider-handle">
+                            <div class="handle-text">Balance</div>
+                            <div class="handle-right"></div>
+                          </div>
+                          <div class="slider-track-body"></div>
+                          <div class="slider-track-right"></div>
+
+                        </div>
+                        <p class="spacer">&nbsp;</p>
+
+                        <div class="slider tall slidertest" id="slidertest1" style="width: 500px;">
+
+                          <div class="handle slider-handle">
+                            <div class="handle-text">Balance</div>
+                            <div class="handle-right"></div>
+                          </div>
+                          <div class="slider-track-body"></div>
+                          <div class="slider-track-right"></div>
+
+                        </div>
+                        <p class="spacer">&nbsp;</p>
+                        <div class="slider tall slidertest" id="slidertest1" style="width: 500px;">
+
+                          <div class="handle slider-handle">
+                            <div class="handle-text">Balance</div>
+                            <div class="handle-right"></div>
+                          </div>
+                          <div class="slider-track-body"></div>
+                          <div class="slider-track-right"></div>
+
+                        </div>
+                        <p class="spacer">&nbsp;</p>
+                        <div class="slider tall slidertest" id="slidertest1" style="width: 500px;">
+
+                          <div class="handle slider-handle">
+                            <div class="handle-text">Balance</div>
+                            <div class="handle-right"></div>
+                          </div>
+                          <div class="slider-track-body"></div>
+                          <div class="slider-track-right"></div>
+
+                        </div>
+
+
+                        <p>Default (track 20, handle 32)</p>
+                        <div class="slider slidertest" id="slidertest2" style="width: 500px; margin-top: 10px;">
+
+                          <div class="handle slider-handle">
+                            <div class="handle-text">Balance</div>
+                            <div class="handle-right"></div>
+                          </div>
+                          <div class="slider-track-body"></div>
+                          <div class="slider-track-right"></div>
+
+                        </div>
+
+
+                        <p>Track 20, Handle 30</p>
+                        <div class="slider slidertest handle30" id="slidertest3" style="width: 500px; margin-top: 10px;">
+
+                          <div class="handle slider-handle">
+                            <div class="handle-text">Balance</div>
+                            <div class="handle-right"></div>
+                          </div>
+                          <div class="slider-track-body"></div>
+                          <div class="slider-track-right"></div>
+
+                        </div>
+
+
+                        <p>Track 20, Handle 30</p>
+                        <div class="slider slidertest handle30" id="slidertest3" style="width: 500px; margin-top: 10px;">
+
+                          <div class="handle slider-handle">
+                            <div class="handle-text">Balance</div>
+                            <div class="handle-right"></div>
+                          </div>
+                          <div class="slider-track-body"></div>
+                          <div class="slider-track-right"></div>
+
+                        </div>
+
+
+                        <p class="spacer">&nbsp;</p>
+                        <div class="slider slidertest handle30" id="slidertest3" style="width: 500px; margin-top: 10px;">
+
+                          <div class="handle slider-handle">
+                            <div class="handle-text">Balance</div>
+                            <div class="handle-right"></div>
+                          </div>
+                          <div class="slider-track-body"></div>
+                          <div class="slider-track-right"></div>
+
+                        </div>
+                        <p class="spacer">&nbsp;</p>
+
+                        <div class="slider slidertest track22" id="slidertest4" style="width: 500px; margin-top: 10px;">
+
+                          <div class="handle slider-handle">
+                            <div class="handle-text">Balance</div>
+                            <div class="handle-right"></div>
+                          </div>
+                          <div class="slider-track-body"></div>
+                          <div class="slider-track-right"></div>
+
+                        </div>
+
+                        <p>Track 22, Handle 30</p>
+                        <div class="slider slidertest handle30 track22" id="slidertest4" style="width: 500px; margin-top: 10px;">
+
+                          <div class="handle slider-handle">
+                            <div class="handle-text">Balance</div>
+                            <div class="handle-right"></div>
+                          </div>
+                          <div class="slider-track-body"></div>
+                          <div class="slider-track-right"></div>
+
+                        </div>
+
+
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+            <!-- END #content-left -->
+
+
+            <div id="content-right">
+
+
+
+            </div>
+
+            <div class="floatclear"></div>
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </body>
+
+</html>

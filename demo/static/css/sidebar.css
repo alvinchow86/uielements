@@ -1,0 +1,715 @@
+/*---------------------------------------------------------------
+  COMMON SIDEBAR STUFF
+  ----------------------------------------------------------------*/
+
+/* the light header for use with sidebar std-white-box */
+
+
+.sidebar-header-box.light {
+    width: 300px;
+    height: 42px;    
+    border-bottom: 1px solid #d6d6d6;
+    background-color: #f7f7f7;
+   
+}
+
+.sidebar-header-box.light.autoheight {
+    height: auto;
+}
+
+.sidebar-header-box.light.gradient {
+    background: transparent url(../images/boxes/sidebar-header-light-gradient.png) no-repeat left top;
+}
+
+.sidebar-header-box.light.full {
+    height: 48px;
+    border-bottom: none;
+    background: transparent url(../images/boxes/sidebar-header-light-42.png) no-repeat left top;
+}
+
+.sidebar-header-box-light-shadow {
+    width: 300px;
+    height: 6px;
+    background: transparent url(../images/boxes/box-header-shadow.png) no-repeat left top;
+}
+
+
+
+.sidebar-header-box.med {
+    
+    height: 48px;
+    border-bottom: none;
+    background: transparent url(../images/boxes/sidebar-header-med-42.png) no-repeat left top;
+}
+
+.sidebar-header-box.dark {
+    height: 47px;
+    width: 302px;
+    margin-top: -1px;
+    margin-left: -1px;
+    background: transparent url(../images/boxes/sidebar-header-dark-42.png) no-repeat left top;
+}
+
+
+
+
+
+.sidebar-header {
+    font-family: "Trebuchet MS";
+    font-size: 21px;
+    letter-spacing: -1px;       
+    margin-bottom: 9px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.sidebar-header-box > .sidebar-header {
+
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 16px;         
+}
+
+.sidebar-header.autoheight {
+    padding-bottom: 7px;
+    height: auto;
+}
+
+.sidebar-header-box.dark > .sidebar-header {         
+    color: white;
+}
+
+
+.sidebar-shadow-box {
+    width: 300px;
+    
+    padding-top: 6px;
+    background: transparent url(../images/boxes/sidebar-light-shadowbox.png) no-repeat left top;
+
+    border-top: 1px solid #c8c8c8;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.sidebar-shadow-box > .content {
+   zmin-height: 30px;
+   background: transparent url(../images/boxes/sidebar-light-shadowbox.png) no-repeat left bottom;
+   padding-bottom: 6px;
+   width: 100%;
+
+}
+
+
+#subscribe-box {
+
+
+}
+
+#subscribe-box .box-content-padding {
+    padding: 16px 18px;
+
+}
+
+#subscribe-header  {
+    zfont-size: 20px;
+    margin-bottom: 12px;
+}
+
+#subscribe-description {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+#subscribe-email-header {
+    font-size: 13px;
+    font-weight: bold;
+    xpadding-left: 2px;
+    xmargin-bottom: 12px;
+
+}
+
+#subscribe-email-input {
+    width: 240px;
+    margin-left: -4px;
+}
+
+#subscribe-submit {
+    margin-top: 4px;
+
+    margin-left: -2px;
+}
+
+/*---------------------------------------------------------------
+  COMMON STUFF for the table part of TOP RATES, RATE AVG widgets 
+  ----------------------------------------------------------------*/
+.rate-avg-widget-table,
+.top-rates-table {
+    xbackground-color: #fbfbfb;
+    xborder: 1px solid #eee;
+    width: 100%;
+    border-collapse: collapse;
+  xborder: 1px solid #e8e8e8;
+}
+
+/* Default header cell settings */
+th.rate-avg-widget-cell,
+th.top-rates-cell {
+   color: #555;
+    padding-top: 2px;
+    padding-bottom: 4px; 
+    text-align: left;
+    xfont-weight: normal;
+    font-size: 13px;
+    background-color: white;
+   xcolor: #4666CC;
+    xxbackground-color: #f8f9fa;
+}
+
+
+/* Default body cell settings */
+.rate-avg-widget-cell,
+.top-rates-cell {
+    border-bottom: 1px solid #e4e5e6;
+    border-bottom: 1px solid #e2e3e4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    xpadding-right: 10px;
+    text-align: left;
+   
+    font-size: 13px;
+    line-height: 16px;
+    color: #444;
+
+  xcolor: #5577aa;
+}
+
+.rate-avg-widget-row.odd > .rate-avg-widget-cell,
+.top-rates-row.odd > .top-rates-cell {
+    background-color: #fafbfc;
+    xbackground-color: #f8f9fa;
+   
+}
+
+.rate-avg-widget-cell > a, 
+.top-rates-cell > a {
+    display: block;
+}
+
+.rate-avg-widget-cell > a:hover, 
+.top-rates-cell > a:hover {
+    color: #222;
+    text-decoration: underline;
+   
+}
+
+
+/*------------------
+  TOP RATES WIDGET 
+  -------------------*/
+      
+
+#top-rates-header {
+    zfont-size: 20px;
+    zmargin-bottom: 10px;
+    zmargin-left: 14px;
+    zheight: 25px;
+}
+
+#top-rates .box-content-padding {
+    padding: 16px 0px 14px 0px;
+    padding: 3px 0px 14px 0px;
+    }
+
+
+
+#top-rates-nav {
+    xmargin-left: -4px;
+    margin-left: 10px;
+    margin-bottom: 8px;
+  
+}
+
+
+#top-rates-table-boxes {
+    margin-top: 3px;
+}
+
+.top-rates-table-box {
+    zmargin-top: 3px;
+    xpadding: 0px 14px;
+}
+
+
+td.top-rates-cell.bank-name {
+    font-size: 12px;
+    font-weight: bold;
+    color: #5777aa;
+}
+
+/* APY */
+
+.top-rates-cell.apy {
+    text-align: left;
+    padding-left: 6px;    
+    font-weight: bold;
+    xcolor: #5577aa;
+    color: #555;
+}
+
+
+/* MIN DEPOSIT */
+
+.top-rates-cell.min-deposit {
+    text-align: left;
+    padding-left: 10px;
+    xwidth: 80px;
+    padding-right: 22px;
+}
+
+th.top-rates-cell.min-deposit{
+    text-align: right;
+    xpadding-left: 10px;
+    width: 80px;
+  
+}
+
+td.top-rates-cell.min-deposit{
+    text-align: right;
+    xpadding-right: 34px;
+    
+    padding-left: 14px;
+}
+
+/* CD Table settings */
+
+.top-rates-cell.term {
+    text-align: left;
+    padding-left: 12px;
+    padding-left: 22px;
+    width: 70px;
+  
+}
+
+
+.top-rates-cell.bank-name.cd {
+    text-align: left;
+    padding-left: 10px;
+    xwidth: 100px;    
+}
+
+.top-rates-cell.apy.cd {
+    text-align: left;
+    xwidth: 45px;
+    padding-right: 20px;
+  
+}
+
+/* Deposit/checking table settings */
+
+.top-rates-cell.bank-name.deposit {
+    text-align: left;
+    padding-left: 22px;
+    width: 110px;
+   
+    
+}
+
+.top-rates-cell.apy.deposit {
+    padding-left: 10px;
+}
+
+
+/*---------------------
+  RATE AVERAGES WIDGET
+  ---------------------*/
+      
+
+#rate-avg-widget .box-content-padding {
+    zzpadding: 16px 0px 14px 0px;
+    padding: 3px 0px 14px 0px;
+}
+
+#rate-avg-widget-header {
+    zfont-size: 20px;
+    zmargin-bottom: 10px;
+    zmargin-left: 20px;
+    zheight: 25px;
+}
+
+/*
+#rate-avg-widget-nav-box {
+    padding-bottom: 10px;
+}
+*/
+
+#rate-avg-widget-nav {
+  
+    margin-left: 14px;
+    margin-bottom: 4px;
+  
+}
+
+
+
+#rate-avg-widget-nav .horiz-control-link > .text {
+    padding-left: 20px;
+}
+#rate-avg-widget-nav .horiz-control-link.left > .text {
+    padding-left: 24px;
+}
+
+#rate-avg-widget-nav .horiz-control-link {
+    padding-right: 20px;
+}
+
+#rate-avg-widget-nav .horiz-control-link > .right {
+    width: 20px;
+}
+
+#rate-avg-widget-nav .horiz-control-link.right {
+    padding-right: 24px;
+}
+
+#rate-avg-widget-nav .horiz-control-link.right > .right {
+    width: 24px;
+}
+
+.rate-avg-widget-data {
+    display: none;
+}
+
+.rate-avg-widget-options {
+    xpadding-top: 5px;
+    xpadding-left: 18px;
+    xpadding-bottom: 5px;
+    zpadding: 6px 0px 10px 18px;
+    zpadding: 4px 0px 10px 18px;   
+    padding-left: 18px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    /* IE8 bug, for some reason top/bottom padding messes things up with switching tabs (hide/show)
+       Debugged 6/6/13.
+       Switched padding to margin-top/bottom.. seems to work     
+     */
+}
+
+.rate-avg-widget-location-buttons {
+    xpadding-top: 4px;
+    xpadding-bottom:6px;
+    xheight: 30px;
+}
+
+.rate-avg-widget-location-button {
+    float: left;
+    
+}
+
+.rate-avg-widget-fields {
+    margin-top: 9px;
+}
+
+.rate-avg-widget-field {
+    float: left;
+    margin-left: -4px;
+  
+
+}
+
+.rate-avg-widget-field-header {
+    margin-bottom: 6px;
+    margin-left: 8px;
+    font-weight: bold;
+    font-size: 11px;
+    color: #444;
+}
+
+#rate-avg-widget-prod-field-cd {
+    margin-right: 12px;
+}
+
+
+.rate-avg-widget-prod-dropdown {
+    margin-top: -5px;
+    xmargin-left: -4px;
+}
+
+#rate-avg-widget-prod-dropdown-cd {
+    width: 115px;
+}
+
+
+#rate-avg-widget-prod-dropdown-cd .jsdropdown-text {
+    padding-left: 12px;
+}
+
+/*#rate-avg-widget-mindeposit-dropdown-cd {*/
+.rate-avg-widget-dropdown.mindeposit.cd {
+    
+    width: 140px;  
+    font-size: 11px;
+}
+
+/*
+#rate-avg-widget-mindeposit-dropdown-cd .jsdropdown-text {
+    font-size: 11px;
+}
+*/
+
+
+#rate-avg-widget-mindeposit-dropdown-deposits {
+    
+    width: 150px;  
+    font-size: 11px;
+}
+
+
+/*#rate-avg-widget-mindeposit-dropdown-cd .jsdropdown-text,*/
+.rate-avg-widget-dropdown.mindeposit.cd  .jsdropdown-text, 
+#rate-avg-widget-mindeposit-dropdown-deposits .jsdropdown-text {
+    padding-left: 12px;
+}
+
+
+/* table */
+.rate-avg-widget-table {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+.rate-avg-widget-cell {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 16px;
+}
+
+.rate-avg-widget-cell.product {
+    padding-left: 20px;
+}
+
+.rate-avg-widget-cell.graph {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+td.rate-avg-widget-cell.rate {
+    xcolor: #3a3a3a;
+    font-weight: bold;
+    xfont-size: 14px;
+}
+
+
+.rate-avg-widget-cell.delta {
+    width: 70px;
+    padding-right: 16px;
+  
+
+}
+
+td.rate-avg-widget-cell.delta {
+    text-align: right;
+    background-position: 7px center;
+    background-repeat: no-repeat;
+    text-align: left;
+}
+
+td.rate-avg-widget-cell.delta.green {
+    background-image: url(../images/icons/green-arrow.png);
+}
+
+td.rate-avg-widget-cell.delta.red {
+    background-image: url(../images/icons/red-arrow.png);
+}
+
+.rate-avg-widget-arrow-box {
+    display: inline-block;
+    width: 17px;
+    xpadding-top: 1px;
+}
+
+.rate-avg-widget-arrow-green {
+    padding-top: 11px;
+}
+
+.rate-avg-widget-cell.delta > .delta-value {
+    xtext-align: right;
+    xpadding-left: 17px;
+    xwidth: 100%;
+    zpadding-right: 10px;
+    margin-left: 19px;  
+    /* originally we did text-align-right with margin-right, but 
+       it was inconsistent with IE */
+}
+
+.rate-avg-widget-cell.delta > .delta-value.nochange {
+    color: #aaa;
+}
+
+
+.rate-avg-widget-busy-overlay {
+    background: transparent url(../images/ajaxspinner.gif) no-repeat center center;
+}
+
+/*------------------------
+ RATE UPDATES WIDGET 
+  -----------------------*/
+
+/*
+#FAFBFC
+
+border #e4e5e6
+*/
+#rate-updates-widget {
+
+}
+
+#rate-updates-widget  .box-content-padding {
+    padding: 4px 2px 8px 2px;
+   
+}
+
+#rate-updates-widget-header-box {
+    zzbackground-color: #f9f9f9;
+}
+
+#rate-updates-widget-header-box.show-location {
+    height: auto;
+}
+
+#rate-updates-widget-header-box.show-location > .sidebar-header {
+    zpadding-top: 6px;
+    zfont-size: 20px;
+
+}
+
+.rate-updates-widget-location {
+    zfont-weight: bold;
+    color: #222;
+    font-size: 15px;
+     
+    /*
+    line-height: 20px;
+    padding: 6px 8px 7px 13px;
+    
+    
+    background: transparent url(../images/boxes/sidebar-darksubheader.png) no-repeat right top;
+    border-top: 1px solid #c8c8c8;
+    border-bottom: 1px solid #c8c8c8;
+    */
+    padding: 7px 8px 6px 16px;
+ 
+}
+.rate-updates-widget-location > .location {
+    font-weight: bold;
+ 
+}
+
+
+.rate-updates-widget-group {
+ 
+    font-size: 13px;
+   
+}
+
+.rate-updates-widget-group-header {
+    zxheight: 30px;
+    padding: 8px 16px 8px 14px;
+    background-color: #fcfcfc;
+    background-color: #f9fafb;
+    background-color: #fafafa;
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.rate-updates-widget-group-header.first {
+    zborder-top: none;
+}
+
+
+.rate-updates-widget-bank {  
+    color: #4466bb;
+  
+    display: block;
+    font-weight: bold;
+    text-decoration: underline;
+    float: left;
+    width: 200px;
+    font-size: 13px;
+    line-height: 17px;
+
+}
+
+.rate-updates-widget-bank:hover {
+    xcolor: #db9040;
+}
+
+.rate-updates-widget-date {
+    float: right;
+    zfont-weight: bold;
+  
+    font-size: 12px;
+    line-height: 15px;
+    color: #444;
+    
+}
+
+
+/*
+.rate-updates-widget-entries {
+    padding: 0px 14px 2px 18px;
+}
+*/
+
+
+.rate-updates-widget-entry {
+    zzpadding: 6px 14px 6px 24px;
+    padding: 6px 0px;
+    margin: 0px 20px;
+    margin: 0px 14px 0px 20px;
+    border-bottom: 1px dashed #e4e4e4;
+    border-bottom: 1px dashed #ddd;
+}
+
+.rate-updates-widget-entry.even {
+    zbackground-color: #fafafa;
+}
+
+
+.rate-updates-widget-entry.last {
+   border-bottom: none;
+}
+
+.rate-updates-widget-product {
+    float: left;
+    width: 132px;
+    padding-top: 3px;
+    font-size: 13px;
+    line-height: 17px;
+  
+}
+
+.rate-updates-widget-product:hover {
+    color: #3871C8;
+    text-decoration:underline;
+}
+
+.rate-updates-widget.rate-change-wrapper {
+    float: right;      
+    height: 22px;
+}
+
+/*
+.rate-updates-widget-rate-change-wrapper.up {
+    background: transparent url(../images/icons/green-arrow-mini.png) no-repeat left center;
+}
+.rate-updates-widget-rate-change-wrapper.down {
+    background: transparent url(../images/icons/red-arrow-mini.png) no-repeat left center;
+}
+*/
+
+
+.rate-updates-widget.rate-change {
+    zfloat: right;
+   
+}
+

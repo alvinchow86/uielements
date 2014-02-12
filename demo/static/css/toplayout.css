@@ -1,0 +1,684 @@
+
+
+#header-wrap {
+
+
+
+    border-bottom: 1px solid #d0d0d0;
+
+    background: -moz-linear-gradient(top, #fcfdff, #f4f6f8 70%, #e0e4e8);
+
+    background-color: #f0f2f4;
+    background: linear-gradient(to bottom, #FCFDFF, #F4F6F8 70%, #E6EaEd 90%, #e0e0e0);
+     background: -moz-linear-gradient(center top , #FCFDFF, #F4F6F8 70%, #E6EaEd 90%, #e0e0e0);
+}
+
+#top-banner-ad-wrap {
+
+}
+
+#top-banner-ad {
+    padding-top: 10px;
+    padding-bottom: 8px;
+    width: 728px;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#header {
+    margin: 0px auto auto;
+    width: 1000px;
+    min-height: 80px;
+    height: 118px;
+    position: relative;
+}
+
+#header-logo {
+    margin-top: 22px;
+
+    display: block;
+    float: left;
+    width: 300px;
+    height: 60px;
+    background: transparent url(../images/findbankrates-logo.png) no-repeat 3px center;
+}
+
+#banner-wrap {
+    padding-top: 35px;
+}
+
+#banner{
+
+}
+
+#banner-ad {
+    width: 728px;
+    height: 90px;
+    margin: auto;
+}
+
+#page-wrap {
+    border-top: 1px solid white;
+    padding-top: 20px;
+     background-color: #f8f9fa;
+}
+
+#main-wrap {
+/*    background-color: #eef2e4;*/
+/*    background-color: white;*/
+    /*border-top: 1px solid white;*/
+    /*background-color:  #f4f6f8;*/
+
+    min-height: 800px;
+}
+#main {
+    margin: auto;
+
+    width: 1000px;
+}
+
+#footer-wrap {
+    clear: both;
+  background-color: #282828;
+    zbackground: -moz-linear-gradient(#364048,#282828);
+    background: linear-gradient(to bottom, #364048,#282828);
+}
+
+
+#footer {
+
+    border: none;
+
+    text-align: center;
+    margin: auto;
+
+    height: 260px;
+    width: 1000px;
+
+
+}
+
+#footer-content {
+    padding-top: 40px;
+    padding-left: 80px;
+}
+
+.footer-column {
+    float: left;
+    width: 180px;
+    margin-right: 20px;
+    text-align: left;
+
+}
+
+
+#footer h3 {
+    color: #fff;
+    font-weight: normal;
+    font-size: 15px;
+    margin-bottom: 12px;
+
+}
+
+#footer  li {
+    font-size: 13px;
+    list-style-type: none;
+    list-style-position: outside;
+    color: #ddd;
+    line-height: 23px;
+
+}
+#footer  li a {
+    /*display: block;*/
+}
+
+#footer  li a:hover {
+    color: white;
+}
+
+/*
+#footer .footer-box h3 {
+
+    font-size: 12px;
+
+    color: #666;
+    padding-bottom: 8px;
+
+}
+
+
+#footer .footer-box ul {
+    padding-left: 0px;
+
+}
+
+#footer .footer-box ul li {
+    list-style-type: none;
+    line-height: 15pt;
+    list-style-position: outside;
+}
+
+#footer .footer-box ul li a {
+    color: #888;
+
+
+}
+
+#footer .footer-box ul li a:hover {
+    text-decoration: none;
+    color: black;
+
+}
+/*
+
+/* DETAILS */
+
+#header-top {
+    height: 120px;
+
+}
+
+#main-nav-wrap {
+    /*
+    position: relative;
+    top: 21px;
+    */
+    position:  absolute;
+    bottom: -21px;
+}
+
+#main-nav {
+    display: block;
+    /*position: relative;
+    top: 21px;
+    */
+    height: 46px;
+    height: 47px;
+    width: 1003px;
+   /*  background: transparent url(../images/nav/main-nav-center.png) repeat-x scroll center;*/
+     background: transparent url(../images/nav/main-nav-bar.png) no-repeat 0px 0px;
+
+    background: transparent url(../images/nav/main-nav-sprite.png) no-repeat 0px 0px;
+    list-style-type: none;
+}
+
+.main-nav-item {
+    float: left;
+    display: block;
+    position: relative;
+}
+
+.main-nav-link {
+    display: block;
+    zzmin-width: 60px;
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+    height: 42px;
+    line-height: 42px;
+    padding-left: 15px;
+    font-size: 16px;
+
+    text-align: center;
+    color: #f4f4f4;
+    cursor: pointer;
+
+    /* temporary, to avoid shadow */
+    position: relative;
+    /*z-index: 1000;*/
+}
+
+
+.main-nav-link > .link-text {
+    padding-right: 15px;
+    display: block;
+    height: 100%;
+}
+
+.main-nav-link > .link-left {
+    width: 15px;
+    display: block;
+    height: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+/* For the first (left-most) option */
+.main-nav-link.first {
+    padding-left: 21px;
+}
+
+.main-nav-link.first > .link-left {
+    width: 21px;
+}
+.main-nav-link.first > .link-text {
+    padding-right: 16px;
+}
+
+
+#main-nav-link-banks {
+    width: 60px;
+}
+#main-nav-link-news {
+    width: 56px;
+}
+
+
+/* Main nav selected options */
+.main-nav-link.selected > .link-text {
+
+    color: white;
+    background: transparent url(../images/nav/main-nav-selected.png) no-repeat right top;
+
+    background: transparent url(../images/nav/main-nav-sprite.png) no-repeat right -60px;
+}
+
+.main-nav-link.selected > .link-left {
+
+    background: transparent url(../images/nav/main-nav-selected.png) no-repeat left top;
+
+    background: transparent url(../images/nav/main-nav-sprite.png) no-repeat -823px -60px;
+
+}
+
+/* selected left-most, rounded */
+.main-nav-link.selected.first > .link-left {
+    background: transparent url(../images/nav/main-nav-selected-left.png) no-repeat left top;
+    background: transparent url(../images/nav/main-nav-sprite.png) no-repeat left -60px;
+}
+
+
+
+/* Main nav selected highlights */
+.main-nav-selected-highlight {
+    position: absolute;
+    top: 0;
+    width: 1px;
+    height: 42px;
+    background: transparent url(../images/nav/main-nav-selected-highlight.png) no-repeat left top;
+    background: transparent url(../images/nav/main-nav-sprite.png) no-repeat -40px -60px;
+
+}
+.main-nav-selected-highlight.left-highlight {
+    left: -1px;
+}
+.main-nav-selected-highlight.right-highlight {
+    right: -1px;
+}
+
+
+/* NAV HOVER */
+.main-nav-link:hover,
+.main-nav-link.open
+{
+     color: #222;
+
+     background-color: #fefefe;
+   /*background: -moz-linear-gradient(top, #e8eaf0, #f5f5f5);*/
+
+   /*box-shadow: 0px 2px 4px 0px #222;*/
+
+   border-bottom: none;
+   z-index: 1000;
+
+
+   /*xbackground: transparent url(../images/nav/main-nav-sprite.png) no-repeat right -110px;   */
+
+   zbackground-color: #f8f8f8;
+   zbackground: transparent url(../images/nav/main-nav-hover.png) repeat-x !important;
+   zbackground: transparent linear-gradient(to bottom, #f8f8f8, #fefefe) repeat-x !important;
+
+}
+
+
+/* Need to override what the .select style */
+.main-nav-link:hover > .link-text,
+.main-nav-link.open > .link-text {
+    color: #222;
+    background: transparent url(../images/nav/main-nav-hover.png) repeat-x !important;
+    zbackground: #fefefe linear-gradient(to bottom, #f8f8f8, #fefefe) repeat-x !important;
+    zzbackground: linear-gradient(to bottom, #f8f8f8, #fefefe) !important;
+}
+.main-nav-link:hover > .link-left,
+.main-nav-link.open > .link-left {
+    color: #222;
+    background: transparent url(../images/nav/main-nav-hover.png) repeat-x !important;
+
+    zbackground: #fefefe linear-gradient(to bottom, #f8f8f8, #fefefe) repeat-x !important;
+
+}
+
+
+.main-nav-link:hover > .main-nav-selected-highlight,
+.main-nav-link.open > .main-nav-selected-highlight {
+    display:none;
+}
+
+
+
+/* Shadows around main-nav */
+.main-nav-hover-shadow.left,
+.main-nav-hover-shadow.right {
+    width: 10px;
+    position: absolute;
+    height: 47px;
+    display: none;
+    bottom: 0px;
+    /*top: -5px;*/
+}
+
+
+.main-nav-hover-shadow.left {
+
+    left: -10px;
+    background: transparent url(../images/nav/main-nav-hover-shadow-left.png) no-repeat left top;
+    background: transparent url(../images/nav/main-nav-sprite.png) no-repeat 0px -110px;
+}
+
+.main-nav-hover-shadow.right {
+    right: -10px;
+    background: transparent url(../images/nav/main-nav-hover-shadow-right.png) no-repeat left top;
+    background: transparent url(../images/nav/main-nav-sprite.png) no-repeat -20px -110px;
+}
+
+
+/* For leftmost select */
+.main-nav-link.first:hover > .main-nav-hover-shadow.left,
+.main-nav-link.first.open > .main-nav-hover-shadow.left {
+    left: -5px;
+    width: 5px;
+    background: transparent url(../images/nav/main-nav-hover-shadow-leftmost-left.png) repeat-x;
+    background: transparent url(../images/nav/main-nav-sprite.png) no-repeat -40px -110px;
+}
+
+
+
+.main-nav-hover-shadow.top {
+    position: absolute;
+    top: -5px;
+    left: 0px;
+    height: 5px;
+    width: 100%;
+    display: none;
+
+}
+
+.main-nav-hover-shadow.top > .left {
+    display: block;
+    height: 5px;
+    margin-right: 15px;
+    /*background: transparent url(../images/nav/main-nav-hover-shadow-top-l.png) no-repeat top left;*/
+    background: transparent url(../images/nav/main-nav-sprite.png) no-repeat 0px -230px;
+       background: transparent url(../images/nav/main-nav-sprite.png) no-repeat -50px -110px;
+
+}
+
+.main-nav-hover-shadow.top > .right {
+    display: block;
+    width: 15px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 5px;
+    /*background: transparent url(../images/nav/main-nav-hover-shadow-top-r.png) no-repeat top right;*/
+    background: transparent url(../images/nav/main-nav-sprite.png) no-repeat right -230px;
+       background: transparent url(../images/nav/main-nav-sprite.png) no-repeat -210px -110px;
+}
+
+/* Finally, show the left,right,top shadows on hover */
+.main-nav-link:hover > .main-nav-hover-shadow,
+.main-nav-link.open > .main-nav-hover-shadow
+{
+
+    display: block;
+}
+
+
+
+/* Trailing spacer at end */
+.main-nav-item.right-spacer {
+    width: 20px;
+    height: 42px;
+}
+
+
+/* Main nav subnav (hover) */
+
+.main-subnav {
+    position: absolute;
+    top: 42px;
+    display: none;
+    z-index:1000;
+
+    padding-right: 10px;
+    left: -5px;
+    width: auto;
+    zopacity: 0;
+
+
+}
+
+.main-subnav-items {
+    width: 170px;
+
+    position: relative;
+    left: 5px;
+    background-color: #f6f6f6;
+    background-color: #fefefe;
+}
+
+.main-subnav-items.cd {
+    width: 190px;
+}
+
+/*
+.main-nav-item.selected .main-subnav {
+    top: 45px;
+}
+*/
+
+.main-subnav-item {
+    list-style-type: none;
+    display: block;
+    list-style-position: outside;
+
+    zfont-family: "Trebuchet MS";
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.main-subnav-item > a{
+    list-style-type: none;
+    display: block;
+    padding: 10px 8px 10px 14px;
+    color: #000;
+}
+
+.main-subnav-item.first > a {
+    padding-top: 12px;
+}
+
+.main-subnav-item > a:hover {
+   background-color: #e8eaef;
+    xbackground-color: #dff0ba;
+
+}
+/*
+.main-subnav-link:hover {
+    background-color: #f4f4f4;
+}*/
+
+.main-subnav.exp {
+    padding-right: 10px;
+    left: -5px;
+    width: auto;
+    display: block;
+
+}
+
+.main-subnav-shadow-tr {
+    width: 10px;
+    position: absolute;
+    top: 0;
+
+    bottom: 10px;
+    right: 0;
+
+    /*height: 100%;*/
+    background: transparent url(../images/nav/main-subnav-shadow.png) no-repeat right -20px;
+
+}
+
+.main-subnav-shadow-br {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: transparent url(../images/nav/main-subnav-shadow.png) no-repeat right bottom;
+
+}
+
+
+.main-subnav-shadow-left {
+
+   background: transparent url(../images/nav/main-subnav-shadow.png) no-repeat left bottom;
+   xbackground: transparent url(../images/nav/main-nav-green.png) no-repeat left bottom;
+   padding-bottom: 5px;
+}
+
+
+
+/* MAIN CONTENT BOX */
+#content-main {
+
+    zmin-height: 800px;
+        margin-top: 10px;
+        padding: 0px 5px 0px 5px;
+}
+
+
+/* DEFAULT LEFT CONTENT */
+#content-left {
+
+        margin: 0px 0px 20px 0px;
+        float: left;
+        width: 670px;
+
+
+}
+
+/* DEFAULT RIGHT CONTENT (SIDEBAR) */
+
+#content-right {
+
+        margin: 0px 0px 20px 0px;
+        float: right;
+        width: 300px;
+
+}
+
+
+/* ==========================
+   TOP NAV / USER LOGIN LINKS
+   =========================*/
+#top-nav {
+    width: 240px;
+    float: right;
+}
+
+#user-account-nav {
+    float: right;
+    zheight: 20px;
+    padding: 5px 6px;
+}
+.user-account-nav-item {
+    display: block;
+    float: left;
+    font-size: 13px;
+    line-height: 19px;
+    padding: 0px 3px;
+
+}
+.user-account-nav-divider {
+    color: #888;
+}
+
+.user-account-nav-link {
+    color: #3871c8;
+    font-weight: bold;
+}
+
+.user-account-nav-link:hover {
+    color: #6699ff;
+    text-decoration: underline;
+}
+
+
+/* ==========================
+   USER LOCATION
+   =========================*/
+
+#user-location {
+    position: absolute;
+    right: 4px;
+    top: -31px;
+    top: -36px;
+
+
+
+    font-size: 13px;
+    zline-height: 31px;
+
+
+    top: -22px;
+    right: 16px;
+
+    padding-bottom: 8px;  /* for the slide effect to be nicer */
+
+    zpadding-right: 12px;
+    zpadding: 9px 12px 8px;
+
+}
+
+#user-location-content {
+    height: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+    background: transparent url(../images/forms/textfield-light.png) no-repeat left top;
+    zbackground: transparent url(../images/buttons/horiz-control-mini-rounded.png) no-repeat left top;
+    zbackground: transparent url(../images/forms/form-sprite.png) no-repeat left -240px;
+}
+
+#user-location-right {
+    height: 100%;
+    position: absolute;
+    width: 12px;
+    right: 0;
+    top: 0;
+    background: transparent url(../images/forms/textfield-light.png) no-repeat right top;
+    zbackground: transparent url(../images/buttons/horiz-control-mini-rounded.png) no-repeat right top;
+    zbackground: transparent url(../images/forms/form-sprite.png) no-repeat right -240px;
+}
+
+#user-location-label {
+    color: #666;
+    color: #444;
+
+}
+
+#user-location-link {
+    padding-left: 8px;
+    color: #222;
+    color: #4466BB;
+    font-weight: bold;
+}
+
+#user-location-link:hover {
+    color: #6699ff;
+
+    text-decoration: underline;
+}

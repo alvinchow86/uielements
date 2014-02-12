@@ -1,0 +1,1211 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+
+
+    font-family: Arial, Helvetica,"Trebuchet MS", georgia, times, "times new roman", serif;
+
+    /* font-family: Helvetica;*/
+    /* font-family: Arial, Helvetica, Verdana, Sans-serif; */
+    /* font-family: "Lucida Sans Unicode","Lucida Grande",Sans-Serif; */
+    font-size: 13px;
+    /*line-height: 1.4;*/
+    /*word-spacing: 1px;*/
+    color: #666666;
+
+    color: #333;
+    line-height: 1;
+
+}
+
+h1,h2,h3 {
+    zzline-height: normal;
+    font-weight: normal;
+}
+
+h2 {
+    xxline-height: 21px;
+}
+
+h1 {
+    font-size: 22px;
+
+}
+
+h2 {
+    font-size: 18px;
+}
+
+table {
+    border-collapse: collapse;
+
+}
+
+*{margin:0;padding:0}
+
+/* LINKS */
+a {
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+
+}
+a img {border: none;}
+/*a:link , a:visited { color: #333;}*/
+/*a:hover { color:#000; }*/
+a:active {
+    background-color: transparent;    /* IE9+ does some weird grey background when clicking link */
+}
+
+
+.blue-link {
+    color: #3871C8;
+    font-weight: bold;
+}
+
+.blue-link:hover {
+    text-decoration:underline;
+    color: #6699ff;
+}
+
+.blue-link.orange-hover:hover {
+    text-decoration:underline;
+    color: #db9040;
+}
+
+.blue-link.dark-hover:hover {
+    text-decoration:underline;
+    color: #223366;
+}
+
+
+ul {
+    list-style-position: inside;
+}
+
+
+input[type="button"] {
+    cursor: pointer;
+
+}
+
+span.bold {
+
+    font-weight: bold;
+}
+
+.unselectable {
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -o-user-select: none;
+   user-select: none;
+}
+
+
+.align-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+div.floatclear {
+
+    clear: both;
+    font-size: 1px;
+
+}
+
+.default-text-active {
+    color: #888;
+}
+
+.header-main {
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: -1px;
+    font-family: "Trebuchet MS";
+}
+
+.header-main.spaced {
+    margin-bottom: 15px;
+}
+
+.header-std {
+    font-weight: normal;
+    letter-spacing: -1px;
+    font-family: "Trebuchet MS";
+}
+
+.simple-message {
+    margin-top: 16px;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.simple-message-box .box-content {
+    min-height: 100px;
+}
+.simple-message-box .box-content-padding {
+    padding: 30px 30px 36px;
+}
+
+.box-content-padding.huge {
+    padding: 30px 30px 36px;
+}
+.box-content-padding.big {
+    padding: 28px;
+}
+.box-content-padding.medium {
+    padding: 24px;
+}
+
+.sidebar-banner-ad-content {
+
+    width: 300px;
+    height: 250px;
+
+}
+
+.sidebar-wrapper {
+    float: left;
+}
+
+/* Some common things */
+.change-location-link {
+    font-size: 14px;
+    color: #3871c8;
+    font-weight: normal;
+}
+
+.change-location-link:hover {
+    color: #6699ff;
+    ztext-decoration: underline;
+}
+
+.std-busy-overlay {
+    background: transparent url(../images/ajaxspinner.gif) no-repeat center 50%;
+}
+
+/* ==========================
+   MAIN SEARCH
+   - common things
+   =========================*/
+
+.main-search-fields {
+
+}
+
+.main-search-field-box {
+    float: left;
+    margin-right: 5px;
+    zoverflow: hidden;
+}
+
+.main-search-field-header {
+    margin-bottom: 11px;
+    font-size: 13px;
+    font-weight: bold;
+    padding-left: 10px;
+    height: 13px;
+}
+
+.main-search-field-header.location {
+    width: 200px;
+}
+
+
+#main-search-product-dropdown {
+
+}
+
+.main-search-product-dropdown .elem {
+    padding: 8px 9px;
+}
+
+.main-search-term-dropdown .elem {
+    padding: 7px 9px;
+}
+
+
+#main-search-home-term-dropdown {
+    width: 128px;
+}
+
+
+#main-search-home-location-input {
+    width: 190px;
+}
+
+.main-search-checkbox {
+    float: left;
+    margin-right: 15px;
+}
+
+.main-search-checkbox > .checkbox-label {
+    font-weight: bold;
+}
+
+
+/* ==========================
+   MAIN SEARCH (HOMEPAGE)
+   =========================*/
+
+
+#main-search-home .box-content-padding {
+
+    padding: 0px;
+}
+
+#main-search-home-header {
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: -1px;
+    font-family: "Trebuchet MS";
+    padding-bottom: 25px;
+    padding-top: 22px;
+    padding-left: 20px;
+}
+
+#main-search-home-container {
+
+    padding: 0px 0px 18px 10px;
+}
+
+
+/* UL*/
+#main-search-home-tabs  {
+  width: 102px;
+   xheight: 100%;
+    float: left;
+    position: relative;
+    padding-top: 4px;
+}
+
+.main-search-home-tab {
+    list-style-type: none;
+    list-style-position: outside;   /* IE7 bug */
+    display: block;
+    position: relative;
+    margin-top: -8px;     /* equal to empty v-spacing in tab graphic, e.g. 2+6 */
+    xxmargin-top: -12px;
+    xxbackground-color: #eee;
+    outline: 0;
+}
+
+.main-search-home-tab.first {
+    margin-top: 0px;
+}
+
+.main-search-home-tab a {
+    display: block;
+
+    font-family: "Trebuchet MS";
+    font-size:16px;
+
+    xxpadding: 10px 0px;
+    padding-left: 22px;
+    width: 115px;
+    height: 46px;
+    line-height: 42px;
+
+    xxposition: absolute;
+
+    letter-spacing: -1px;
+    font-weight: normal;
+    color: #444;
+
+
+    position: relative;
+
+}
+.main-search-home-tab a span.rule {
+    position: absolute;
+    width: 70px;
+    bottom:5px;
+    left: 20px;
+    height: 1px;
+    background-color: #e4e4e4;
+    zzbackground: -moz-linear-gradient(left, #eee, #ddd 50%, #eee);
+}
+
+.main-search-home-tab.selected a span.rule {
+    display: none;
+}
+
+
+
+/*
+.main-search-home-tab a span {
+    display: block;
+    width: 84px;
+    border-bottom: 1px solid #e0e0e0;
+    height: 40px;
+}
+.main-search-home-tab.selected a span,
+.main-search-home-tab.last a span {
+    border-bottom: 1px solid transparent;
+}
+*/
+
+.main-search-home-tab a:hover {
+    color: #2E5CE6;
+    xbackground: transparent url(../images/page/main-search-tab-hover.png) no-repeat 0px 0px;
+
+    xbox-shadow: inset 0px 0px 8px #ddd;
+    xwidth: auto;
+    xcolor: white;
+    xz-index: 1000;
+}
+
+.main-search-home-tab.selected a {
+    background: transparent url(../images/page/main-search-tab-selected.png) no-repeat 0px 0px;
+    color: white;
+
+}
+
+
+#main-search-home-box {
+    float: left;
+    width: 540px;
+    padding-bottom: 12px;
+    background: white url(../images/page/main-search-homepage-box.png) no-repeat 0px bottom;
+}
+
+#main-search-home-box-top {
+
+    background: white url(../images/page/main-search-homepage-box.png) no-repeat 0px 0px;
+
+}
+
+#main-search-home-box-inner {
+
+    padding: 0px 0px 0px 24px;
+}
+
+/* The actual content-box for CD, Savings, Checking, Mortgage search fields */
+.main-search-home-contents {
+    height: 136px;
+    display:none;
+    padding-top: 22px;   /* FF fix, put some padding in parent div for top-margin issue */
+}
+
+.main-search-home-contents.active {
+    display:block;
+}
+
+.main-search-home-fields {
+   width: 100%;    /* IE7 fix */
+
+}
+
+.main-search-home-bottomrow {
+    margin-top: 14px;
+    width: 100%;               /* IE7 fix */
+    xxdisplay:inline-block;
+}
+
+
+
+/* Custom homepage things*/
+
+/*
+#main-search-checkboxes-cd {
+    float: left;
+}
+*/
+
+#main-search-home-submit-cd-local-wrapper {
+    float: right;  /* IE8 fix for the Search button fade, causing left checkboxes to shift on hover */
+}
+
+.main-search-home-bottomrow > .main-search-checkbox {
+    margin-top: 4px;
+}
+
+#main-search-home-submit-cd-local {
+    float: right;
+    margin-right: 24px;
+    margin-right: 18px;
+    width: 95px;
+
+}
+
+#main-search-home-submit-cd-local > .button-text,
+#main-search-home-submit-cd-local > .button-right {
+    background-color: #fbfbfb;  /* IE8: to get fade to work w/o black background*/
+}
+
+#main-search-home-submit-cd-online {
+    margin-left: 1px;
+}
+
+/* Homepage CD Page stuff */
+#main-search-home-product-dropdown-cd {
+    width: 140px;
+}
+
+.main-search-home-location-textinput.cd {
+    width: 210px;
+}
+
+/* Homepage Savings Page stuff */
+#main-search-home-product-dropdown-savings {
+    width: 160px;
+    width: 170px;
+}
+
+.main-search-home-location-textinput.savings {
+    width: 200px;
+}
+
+/* Homepage Checking Page stuff */
+#main-search-home-product-dropdown-checking {
+    width: 170px;
+}
+
+.main-search-home-location-textinput.checking {
+    width: 195px;
+    width: 200px;
+}
+
+
+/* ==========================
+   MAIN SEARCH (SUBPAGES)
+   =========================*/
+
+
+.box-content-padding.main-search-subpage {
+
+    padding: 25px 24px 28px 24px;
+}
+
+
+.main-search-subpage-header {
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: -1px;
+    font-family: "Trebuchet MS";
+    zmargin-bottom: 16px;
+    padding-left: 4px;
+
+}
+
+.main-search-subpage-form {
+    margin: 20px 4px 0px 2px;
+}
+.main-search-subpage-form-padding {
+    padding: 18px 15px 11px 15px;
+}
+
+
+.main-search-subpage-fields > .main-search-field-box {
+    margin-right: 7px;
+}
+
+.main-search-subpage-fields {
+    margin-bottom: 17px;
+}
+
+.main-search-subpage-bottomrow {
+    height: 36px;
+
+    width: 100%;               /* IE7 fix */
+
+}
+
+.main-search-subpage-bottomrow > .main-search-checkbox {
+    margin-top: 4px;
+}
+
+/* ==========================
+   MAIN SEARCH (CD)
+   =========================*/
+
+.main-search-subpage-form-padding.cd {
+    zpadding-bottom: 12px;
+}
+
+#main-search-cd-form {
+
+}
+
+#main-search-cd-product-dropdown {
+    width: 140px;
+}
+
+#main-search-cd-term-dropdown {
+    width: 124px;
+    width: 132px;
+}
+
+#main-search-cd-product-field,
+#main-search-cd-term-field {
+    margin-right: 10px;
+}
+
+#main-search-cd-location-field {
+    margin-left: 2px;
+    margin-right: 0px;
+}
+
+#main-search-cd-location-textinput {
+    width: 268px;
+}
+
+/* fix this so the search button animation doesn't change total height */
+/*
+.main-search-subpage-bottomrow.cd {
+    height: 36px;
+}
+*/
+
+
+
+#main-search-cd-submit-local-wrapper {
+    float: right;  /* IE8 fix for the Search button fade, causing left checkboxes to shift on hover */
+}
+
+#main-search-cd-submit-local {
+    float: right;
+    width: 95px;
+    margin-right: 5px;
+    margin-top: -3px;
+
+}
+#main-search-cd-submit-local > .button-text,
+#main-search-cd-submit-local > .button-right {
+    background-color: #fcfcfc;  /* IE8: to get fade to work w/o black background*/
+}
+#main-search-cd-submit-online {
+    width: 95px;
+    margin-left: 3px;
+}
+
+
+/* ==========================
+   MAIN SEARCH (Savings)
+   =========================*/
+
+/*
+#main-search-savings-product-field {
+    margin-right: 7px;
+}
+
+#main-search-savings-location-field {
+    margin-right: 7px;
+}
+*/
+
+#main-search-savings-product-dropdown {
+    width: 175px;
+
+}
+
+
+#main-search-savings-location-textinput {
+    width: 240px;
+}
+/* ==========================
+   MAIN SEARCH (Checking)
+   =========================*/
+#main-search-checking-product-dropdown {
+    width: 175px;
+
+}
+
+
+#main-search-checking-location-textinput {
+    width: 240px;
+}
+
+
+
+
+
+
+
+#homepage-content .box-content-padding {
+    zpadding: 20px 18px 20px;
+    padding: 22px 20px;
+}
+
+
+.homepage-content-header {
+
+    font-weight: normal;
+    margin-bottom: 12px;
+
+    font-size: 21px;
+    letter-spacing: -1px;
+    font-family: "Trebuchet MS";
+
+}
+
+
+/* Homepage Posts */
+
+
+#homepage-posts .box-content-padding {
+    padding: 0;
+}
+
+
+#homepage-posts {
+    float: left;
+    width: 374px;
+    padding-right: 10px;
+    border-right: 1px solid #f4f4f4;
+
+}
+
+.homepage-post {
+    border-bottom: 1px dashed  #ddd;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    xposition: relative;
+    min-height: 40px;
+}
+
+.homepage-post.last {
+    border-bottom: none;
+}
+
+.homepage-post-link {
+
+    font-size: 16px;
+    color: #4466cc;
+    zzpadding-left: 96px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    line-height: 22px;
+    display: block;
+
+    /*
+    height: 20px;
+    position: absolute;
+    margin: auto;
+    top:0;
+    bottom:0;
+    */
+}
+
+
+.homepage-post-link.has-thumbnail {
+    padding-left: 96px;
+}
+
+
+#homepage-content-right {
+    float: left;
+    width: 240px;
+}
+
+#homepage-content-right .padding {
+    padding-left: 14px;
+}
+
+.homepage-calculator-link {
+    font-size: 16px;
+    color: #4466cc;
+    display: block;
+    padding: 6px 0px;
+
+    line-height: 23px;
+}
+
+#homepage-calculators {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+#homepage-resources {
+    margin-top: 16px;
+
+}
+
+
+.homepage-resource-link {
+    font-size: 16px;
+    color: #4466cc;
+    display: block;
+    padding: 9px 0px;
+}
+
+
+/* ==========================
+   Homepage Subpage Content
+   =========================*/
+
+.homepage-subpage-content .box-content-padding {
+    padding: 26px 26px;
+    padding-right: 0px;
+}
+
+.homepage-subpage-content-header {
+    font-weight: normal;
+    margin-bottom:10px;
+
+    font-size: 22px;
+    letter-spacing: -1px;
+    font-family: "Trebuchet MS";
+}
+
+.homepage-subpage-links-left {
+    float: left;
+    width: 330px;
+    zzwidth: 320px;
+    border-right: 1px solid #f4f4f4;
+}
+
+.homepage-subpage-links-left > .padding {
+    padding-right: 10px;
+}
+
+
+.homepage-subpage-news-post {
+
+    padding: 4px 0px;
+    xposition: relative;
+    min-height: 40px;
+}
+
+.homepage-subpage-pf-posts {
+    border-top: 1px solid #eee;
+    margin-top: 4px;
+    padding-top: 22px
+}
+
+.homepage-subpage-pf-post {
+    padding: 4px 0px;
+}
+
+.homepage-subpage-tools {
+    border-top: 1px solid #eee;
+     margin-top: 4px;
+    padding-top: 22px
+}
+
+#homepage-subpage-tools-header {
+    margin-bottom: 12px;
+}
+
+/* ================================
+   HOMEPAGE RATE UPDATES (
+   =============================== */
+
+.homepage-subpage-rate-updates-right {
+    float: left;
+    width: 291px;
+    zzwidth: 301px;
+
+}
+
+.homepage-subpage-rate-updates-right > .padding {
+    padding-left: 18px;
+}
+
+#homepage-subpage-rate-updates-header {
+    margin-bottom: 16px;
+}
+
+.homepage-rate-updates-group {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 2px;
+    margin-bottom: 8px;
+
+}
+
+.homepage-rate-updates-group.last {
+    border-bottom: none;
+
+}
+
+.homepage-rate-updates-group-header {
+    padding: 6px 0px 0px 0px;
+    zzpadding-right: 6px;
+
+}
+
+.homepage-rate-updates-bank {
+    color: #4466bb;
+    display: block;
+    font-weight: bold;
+    text-decoration: underline;
+    float: left;
+    width: 200px;
+    font-size: 13px;
+}
+
+.homepage-rate-updates-date {
+    float: right;
+
+    font-size: 12px;
+    line-height: 15px;
+    color: #444;
+
+}
+
+.homepage-rate-updates-entry {
+    padding: 7px 0px;
+
+    margin: 0px 0px 0px 8px;
+
+    border-bottom: 1px dashed #ddd;
+}
+
+
+.homepage-rate-updates-entry.last {
+   border-bottom: none;
+}
+
+.homepage-rate-updates-product {
+    float: left;
+    width: 135px;
+    zzwidth: 145px;
+    padding-top: 3px;
+    font-size: 13px;
+    line-height: 17px;
+}
+
+.homepage-rate-updates-product:hover {
+    color: #3871C8;
+    text-decoration:underline;
+}
+
+.homepage-rate-updates.rate-change-wrapper {
+    float: right;
+    height: 22px;
+}
+
+
+
+
+
+
+/*
+.showmore {
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #ccf;
+  font-weight: bold;
+  font-size: 14ffpx;
+  }
+
+  .showmoreimg {
+  background-color: #bba;
+  vertical-align: middle;
+  }
+*/
+
+/* ---------------------
+   RATE CHANGES (COMMON)
+   --------------------*/
+.rate-change-wrapper {
+    height: 22px;
+    padding-left: 22px;
+}
+
+.rate-change-wrapper.up {
+    background: transparent url(../images/icons/green-arrow-mini.png) no-repeat left center;
+}
+.rate-change-wrapper.down {
+    background: transparent url(../images/icons/red-arrow-mini.png) no-repeat left center;
+}
+
+.rate-change {
+    line-height: 20px;
+}
+
+.rate-change > .rate {
+    font-size: 14px;
+    font-weight: bold;
+    color: #445588;
+    color: #335588;
+    vertical-align: middle;
+    display: inline-block;
+
+}
+
+.rate-change > .arrow {
+    padding: 0 3px;
+    vertical-align: middle;
+}
+
+
+.user-location-tooltip {
+    /*
+    border-radius: 4px;
+    border: 2px solid #000;
+    border: none;
+    background: #222;
+    color: white;
+    */
+    padding: 6px 0px 4px 4px;
+
+}
+
+.user-location-tooltip-label {
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #222;
+}
+
+.user-location-tooltip-textinput {
+    width: 240px;
+    margin-left: -4px;
+}
+
+.user-location-tooltip-clear {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #3871c8;
+    margin-left: 2px;
+
+}
+
+.user-location-tooltip-clear:hover {
+    color: #6699ff;
+}
+
+/*
+.user-location-tooltip .tooltipster-content {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    padding: 8px 10px;
+}
+*/
+
+.std-text-box > p,
+.std-text-box > ul {
+    padding-bottom: 8px;
+}
+
+.std-text-box {
+    font-size: 13px;
+    line-height: 19px;
+}
+
+
+
+/* ===============
+   BREADCRUMBS
+   =============*/
+.breadcrumbs {
+
+}
+
+.std-white-box.breadcrumbs .box-content {
+    border: 1px solid #d0d0d0;
+}
+
+.breadcrumbs-wrap {
+    /*border: 1px solid #d6d6d6;*/
+    height: 34px;
+    position: relative;
+    background-color: #fafafa;
+    background-color: #f4f4f4;
+}
+
+
+
+.breadcrumb {
+    zposition: absolute;
+    ztop: -1px;
+
+    float: left;
+    position: relative;
+    height: 34px;
+    display: block;
+    padding-right: 30px;
+    background: transparent url(../images/nav/breadcrumb.png) no-repeat right top;
+
+
+    font-size: 15px;
+
+    margin-right: -16px;
+
+    font-family: "Trebuchet MS";
+    line-height: 33px;
+    color: #111;
+    color: #484848;
+    color: #505050;
+}
+
+
+
+.breadcrumb > .text {
+    height: 100%;
+    padding-left: 24px;
+    display: block;
+    background: transparent url(../images/nav/breadcrumb.png) no-repeat left top;
+}
+
+.breadcrumb.nographic {
+    background: none !important;
+    padding-left: 24px;
+}
+
+/* Z indexes */
+.breadcrumb.first {
+    z-index: 5;
+}
+
+.breadcrumb.second {
+    z-index: 4;
+}
+
+
+.breadcrumb.third {
+    z-index: 3;
+}
+
+
+.breadcrumb.first > .text {
+    padding-left: 18px;
+}
+
+.breadcrumb.selected {
+    zbackground-image:  url(../images/nav/breadcrumb-hover.png);
+    background-image:  url(../images/nav/breadcrumb-selected.png);
+    font-weight: bold;
+    color: #444;
+    zcolor: #303030;
+    ztext-decoration: underline;
+
+}
+
+.breadcrumb.selected > .text {
+    zbackground-image:  url(../images/nav/breadcrumb-hover.png);
+    background-image:  url(../images/nav/breadcrumb-selected.png);
+}
+
+
+.breadcrumb:hover {
+    color: #3871c8;
+    zcolor: #4466bb;
+    color: #000;
+    zcolor: #335588;
+    ztext-decoration: underline;
+}
+
+.breadcrumb.selected:hover {
+    zcolor: black;
+}
+
+
+.breadcrumbs-wrap.large {
+    height: 36px;
+}
+.breadcrumb.large {
+    height: 36px;
+    zfont-size: 16px;
+    line-height: 35px;
+    background: transparent url(../images/nav/breadcrumb-large.png) no-repeat right top;
+}
+
+.breadcrumb.large > .text {
+    background: transparent url(../images/nav/breadcrumb-large.png) no-repeat left top;
+}
+
+
+.breadcrumb.large.selected {
+    background-image:  url(../images/nav/breadcrumb-large-selected.png);
+
+
+}
+
+.breadcrumb.large.selected > .text {
+    background-image:  url(../images/nav/breadcrumb-large-selected.png);
+}
+
+
+.breadcrumbs-wrap.blog > .breadcrumb {
+    color: #222;
+    zfont-weight: bold;
+}
+
+/*
+.breadcrumb:hover {
+    background-image:  url(../images/nav/breadcrumb-selected.png);
+}
+
+.breadcrumb:hover > .text {
+    background-image:  url(../images/nav/breadcrumb-selected.png);
+}
+*/
+
+/*
+.breadcrumb > .right {
+    width: 28px;
+}
+*/
+
+
+/* Flat page content */
+#flatpage-header {
+    margin-bottom: 20px;
+}
+
+.flatpage-content {
+
+}
+.flatpage-content h2 {
+    margin-bottom: 8px;
+}
+
+.flatpage-content a{
+    color: #2266cc;
+}
+
+.flatpage-content a:hover {
+    text-decoration: underline;
+    xcolor: #003377;
+}
+
+.flatpage-content p,
+.flatpage-content ul {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin-bottom: 14px;
+    line-height: 19px;
+}
+
+
+.flatpage-content li {
+    margin-bottom: 4px;
+    padding-left: 6px;
+}
+
+
+/*
+.autocomplete-suggestions {
+    border: 1px solid #999;
+    background-color: white;
+    cursor: default;
+}
+*/
+.autocomplete-suggestions {
+    border: 1px solid #999;
+    background: white;
+    overflow: auto;
+}
+.autocomplete-suggestion {
+    padding: 2px 5px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.autocomplete-selected {
+    background: #F0F0F0;
+    background: #f4f4f4;
+}
+.autocomplete-suggestions strong {
+    font-weight: normal;
+    color: #3399FF;
+    color: #4499FF;
+}
